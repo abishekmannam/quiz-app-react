@@ -1,0 +1,2059 @@
+[
+  {
+    "id": "algo_2",
+    "questionText": "If a and b are the vertices in a connected graph of order n , then the length of the longest simple path can be at most",
+    "options": [
+      "n-1"
+    ],
+    "correctAnswer": "n-1"
+  },
+  {
+    "id": "algo_3",
+    "questionText": "Which of the following algo has an implementation that most closely resembles that of Dijkstra algo ?",
+    "options": [
+      "Prims"
+    ],
+    "correctAnswer": "Prims"
+  },
+  {
+    "id": "algo_4",
+    "questionText": "When inserting the keys 10, 20, 25, 18, 15, 12 (in that order) into an initially empty binary search tree, how many branches will this tree have?",
+    "options": [
+      "2 (Verify)"
+    ],
+    "correctAnswer": "2 (Verify)"
+  },
+  {
+    "id": "algo_5",
+    "questionText": "The running time of the 0-1 Knapsack dynamic programming algorithm has growth that is",
+    "options": [
+      "Exponential"
+    ],
+    "correctAnswer": "Exponential"
+  },
+  {
+    "id": "algo_6",
+    "questionText": "Which of the following recurrences can not be solved by masters th ?",
+    "options": [
+      "T(n) = 2T(n/2)+ nlogn"
+    ],
+    "correctAnswer": "T(n) = 2T(n/2)+ nlogn"
+  },
+  {
+    "id": "algo_7",
+    "questionText": "All of the following algorithms make use of depth-first spanning trees, except for",
+    "options": [
+      "All of the above make use of depth-first spanning trees."
+    ],
+    "correctAnswer": "All of the above make use of depth-first spanning trees."
+  },
+  {
+    "id": "algo_8",
+    "questionText": "For Prim\u2019s algorithm the greedy choice is to choose",
+    "options": [
+      "the edge of least weight that is not in the tree under construction."
+    ],
+    "correctAnswer": "the edge of least weight that is not in the tree under construction."
+  },
+  {
+    "id": "algo_9",
+    "questionText": "How many swaps are required when sorting the array 6, 1, 3, 5, 2, 4 with insertion Sort?",
+    "options": [
+      "8"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "id": "algo_10",
+    "questionText": "If a perfect binary tree has n = 2h - 1 nodes , then summing the individual heights of each tree node yields an expression that is :",
+    "options": [
+      "O(logn) (Verify)"
+    ],
+    "correctAnswer": "O(logn) (Verify)"
+  },
+  {
+    "id": "algo_11",
+    "questionText": "The following structures possess optimal substructures, except for",
+    "options": [
+      "a parenthesization of a matrix product that minimizes the total multiplication",
+      "a minimum-cost path from one graph vertex to another. (all of these do)",
+      "a parenthesization of a matrix product that maximizes the total multiplication",
+      "a maximum-cost path from one graph vertex to another."
+    ],
+    "correctAnswer": "a maximum-cost path from one graph vertex to another."
+  },
+  {
+    "id": "algo_12",
+    "questionText": "An algorithm with quadratic running time took 1 second to compute a problem instance of size 10000. Then, all other things being equal, how long would we expect the same algorithm to run for a problem instance of size 20000.",
+    "options": [
+      "4"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "id": "algo_13",
+    "questionText": "The running time of Strassen\u2019s algorithm is",
+    "options": [
+      "T(n) = O(nlog7)"
+    ],
+    "correctAnswer": "T(n) = O(nlog7)"
+  },
+  {
+    "id": "algo_14",
+    "questionText": "Suppose n items are randomly inserted into a separate-chaining hash table of size n. Then, for increasingly large n, the length of the longest chain tends towards.",
+    "options": [
+      "O(1) (Verify)"
+    ],
+    "correctAnswer": "O(1) (Verify)"
+  },
+  {
+    "id": "algo_15",
+    "questionText": "(1000n2logn + n2log50n43 + 1000000n2.05)(789log4n + 45log2n80 + 10log3n50)",
+    "options": [
+      "O(n2.05log2n80)"
+    ],
+    "correctAnswer": "O(n2.05log2n80)"
+  },
+  {
+    "id": "algo_16",
+    "questionText": "When Quicksort calculates its pivot by using the median of the first, last and middle element, then it is guaranteed to run in time O(n logn) for each of the following arrays except for:",
+    "options": [
+      "an array in random order"
+    ],
+    "correctAnswer": "an array in random order"
+  },
+  {
+    "id": "algo_17",
+    "questionText": "In the Topological sorting algorithm, the first vertices added to the queue are those having",
+    "options": [
+      "greatest in-degree"
+    ],
+    "correctAnswer": "greatest in-degree"
+  },
+  {
+    "id": "algo_18",
+    "questionText": "In a simple graph G has order 23 then the largest size it can have is",
+    "options": [
+      "253 : [n(n-1)/2]"
+    ],
+    "correctAnswer": "253 : [n(n-1)/2]"
+  },
+  {
+    "id": "algo_19",
+    "questionText": "Which of the following expressions best describes the big-O relationship between f(n) =(logn)sqrt(log) g(n) = sqrt(n)",
+    "options": [
+      "f(n) = w(g(n))"
+    ],
+    "correctAnswer": "f(n) = w(g(n))"
+  },
+  {
+    "id": "algo_20",
+    "questionText": "Which of the following expressions best describes the big-O relationship between f(n) = n/(n+1) And g(n) =n 1/logn Ans: f(n) = theta g(n) Ans: O(root n)",
+    "options": [
+      "Solve"
+    ],
+    "correctAnswer": "Solve"
+  },
+  {
+    "id": "algo_21",
+    "questionText": "The summation expression Summation(i = 1 to n) [summation(j = i/2 to i) of j] O(n3)",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_22",
+    "questionText": "Which of the following sorting tasks would not be appropriate for Counting Sort?",
+    "options": [
+      "sorting millions of products by their 15 digit serial number."
+    ],
+    "correctAnswer": "sorting millions of products by their 15 digit serial number."
+  },
+  {
+    "id": "algo_23",
+    "questionText": "Worst case running time T(n) for inserting n elements into an initially-empty binary heap is",
+    "options": [
+      "T(n) = O(n logn)"
+    ],
+    "correctAnswer": "T(n) = O(n logn)"
+  },
+  {
+    "id": "algo_24",
+    "questionText": "A simple graph G has vertex set equal to the set of bit strings of length 5. Moreover, any two vertices are adjacent if their corresponding bit strings differ by at most one bit. Then G must have exactly how many edges?",
+    "options": [
+      "Formula: n X 2n-1 now let n = 5, edges = 80."
+    ],
+    "correctAnswer": "Formula: n X 2n-1 now let n = 5, edges = 80."
+  },
+  {
+    "id": "algo_25",
+    "questionText": "Edit distance pair-formula j if i = 0 d(i, j) = i if j = 0 min(d(i\u22121,j)+1,d(i,j\u22121)+1,d(i\u22121,j\u22121)+(ui \u0338=vj))",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_26",
+    "questionText": "After executing the Floyd-Warshall algorithm for a graph having n vertices the optimal path from any vertex i to j may always be computed, even if one only has access to matrix(matrices)",
+    "options": [
+      "d(n-1)"
+    ],
+    "correctAnswer": "d(n-1)"
+  },
+  {
+    "id": "algo_27",
+    "questionText": "1/1k + 1/2k \u2026\u2026 + 1/nk = O(1)",
+    "options": [
+      "not enough information"
+    ],
+    "correctAnswer": "not enough information"
+  },
+  {
+    "id": "algo_1",
+    "questionText": "Which of the following expressions surely supports the statement f(n) =  (g(n))?",
+    "options": [
+      "a) f(n)  <= 4g(n) for all n >=1",
+      "b) f(n)  >=4g(n) for all n>=136",
+      "c)  limn->infinite f(n)/g(n) = 0",
+      "d)   none of the above"
+    ],
+    "correctAnswer": "a) f(n)  <= 4g(n) for all n >=1"
+  },
+  {
+    "id": "algo_2",
+    "questionText": "Let k denote the degree of polynomial p(n), and l the degree of polynomial q(n). If p(n) = o(q(n)), then necessarily",
+    "options": [
+      "a)   k = l.",
+      "b)   k < l.",
+      "c)   k > l",
+      "d)   none of the above"
+    ],
+    "correctAnswer": "a)   k = l."
+  },
+  {
+    "id": "algo_3",
+    "questionText": "If f(n) = O(g(n)) and f(n) =  \u2126(g(n)), then it is always true that",
+    "options": [
+      "a)   f(n) = o(g(n)).",
+      "b)   f(n) =  \u03b8(g(n)).",
+      "c)   f(n) = \u03c9(g(n)).",
+      "d)   both a) and b) are always true."
+    ],
+    "correctAnswer": "a)   f(n) = o(g(n))."
+  },
+  {
+    "id": "algo_4",
+    "questionText": "Which of the following expressions best describes the growth of the sum 1+1/2+1/3+ +1/n?",
+    "options": [
+      "a)  \u03b8 (1/n)",
+      "b) \u03b8  (1)",
+      "c)   (log n)",
+      "d)   (n log n)"
+    ],
+    "correctAnswer": "a)  \u03b8 (1/n)"
+  },
+  {
+    "id": "algo_5",
+    "questionText": "Given positive functions f(n) and g(n), if we know that limn-> infinite (log f(n) \u2212 log g(n)) = 1, then we know that",
+    "options": [
+      "a)   f(n) = o(g(n)).",
+      "b)   f(n) = \u0398(g(n)).",
+      "c)   f(n) =  \u03c9(g(n)).",
+      "d)   more information is needed about f and g to reach a de nite conclusion."
+    ],
+    "correctAnswer": "a)   f(n) = o(g(n))."
+  },
+  {
+    "id": "algo_6",
+    "questionText": "An algorithm takes as input an n x n Boolean matrix A. If the running time of the algorithm is T (n) = O(n log n) when n is used as the input size parameter, then which of the following expressions describes the big-O growth of T (m), the running time of the algorithm when m = n2 is used as the size parameter?",
+    "options": [
+      "a)   O( (\u221am) log m)",
+      "b)   O(m2 log m)",
+      "c)   O(m log m)",
+      "d)   O(m2 log2 m)"
+    ],
+    "correctAnswer": "a)   O( (\u221am) log m)"
+  },
+  {
+    "id": "algo_7",
+    "questionText": "Which of the following is not a desirable property of a hash function h(x)?",
+    "options": [
+      "a)   It should be computable in O(1) time.",
+      "b) The range of h(x) should stay within the desired hash-table size.",
+      "c)   The range of h(x) should include a wide range of integers.",
+      "d) If x1,...., xn are the items to be hashed, then the numbers h(x1),....,h(xn)"
+    ],
+    "correctAnswer": "a)   It should be computable in O(1) time."
+  },
+  {
+    "id": "algo_8",
+    "questionText": "If a separate-chaining hash table has load factor = 5, then the average length of a chain equals",
+    "options": [
+      "a)   5.",
+      "b) log 5.",
+      "c)   5 log 5.",
+      "d) log(log 5)."
+    ],
+    "correctAnswer": "a)   5."
+  },
+  {
+    "id": "algo_9",
+    "questionText": "Perfect hashing",
+    "options": [
+      "a)   may be applied to static hash tables.",
+      "b) means there are no collisions when retrieving data from the hash table.",
+      "c)   represents one of the most efficient ways of retrieving data.",
+      "d) all of the above"
+    ],
+    "correctAnswer": "a)   may be applied to static hash tables."
+  },
+  {
+    "id": "algo_10",
+    "questionText": "The worst case running time T (n) for inserting n elements into an initially-empty heap is",
+    "options": [
+      "a)   T (n) = O(n2).",
+      "b) T (n) = O( (\u221an) log n).",
+      "c)   T (n) = O(n).",
+      "d)  T (n) = O(n log n)."
+    ],
+    "correctAnswer": "a)   T (n) = O(n2)."
+  },
+  {
+    "id": "algo_11",
+    "questionText": "The worst case running time T (n) for popping an element from a binary heap of size n is",
+    "options": [
+      "a)   T (n) = O(1).",
+      "b)   T (n) = O(log n).",
+      "c)   T (n) = O(n).",
+      "d)  T (n) = O(n log n)."
+    ],
+    "correctAnswer": "a)   T (n) = O(1)."
+  },
+  {
+    "id": "algo_12",
+    "questionText": "Which of the following algorithms does not require a heap for its efficient implementation?",
+    "options": [
+      "a)   Huffman\u2019s algorithm (Require min heap)",
+      "b)   Dijkstra\u2019s algorithm (same as prrims)",
+      "c)   Kruskal\u2019s algorithm",
+      "d) Prim\u2019s algorithm (binary min heap"
+    ],
+    "correctAnswer": "a)   Huffman\u2019s algorithm (Require min heap)"
+  },
+  {
+    "id": "algo_13",
+    "questionText": "Which of the following graph problems cannot be solved in time that is linear with respect to the sum of the number of vertices and edges in the graph (i.e. O(m + n)).",
+    "options": [
+      "a)   determining if a simple graph is connected",
+      "b)  determining if a simple graph is bipartite",
+      "c)   determining a minimum spanning tree for a connected weighted graph",
+      "d)  determining a topological sort of the vertices for a directed acyclic graph"
+    ],
+    "correctAnswer": "a)   determining if a simple graph is connected"
+  },
+  {
+    "id": "algo_14",
+    "questionText": "Suppose directed graph G is weakly but not strongly connected, and path P = a,b, c,d provides a weak (but not strong) connection from a to d within G. Then we surely know that",
+    "options": [
+      "a)   either (a, b), or (b, c), or (c, d) is an edge of G.",
+      "b)  (a,b), and (b, c), and (c, d) are edges of G.",
+      "c)   either (b,a), or (c, b), or (d, c) is an edge of G.",
+      "d)  (b,a), and (c, b), and (d, c) are edges of G."
+    ],
+    "correctAnswer": "a)   either (a, b), or (b, c), or (c, d) is an edge of G."
+  },
+  {
+    "id": "algo_15",
+    "questionText": "Let G = (V, E) be the undirected graph whose edges are {(a,b), (b, c), (c, d), (a,d)}. If T is the depth- first spanning tree of G rooted at vertex a, it follows that T has ______ branch(es).",
+    "options": [
+      "a)   1",
+      "b) 2",
+      "c)   3",
+      "d) 4"
+    ],
+    "correctAnswer": "a)   1"
+  },
+  {
+    "id": "algo_16",
+    "questionText": "The worst case running time T (n) for inserting n elements into an initially-empty binary search tree is",
+    "options": [
+      "a)   T (n) = O(n2).",
+      "b) T (n) = O( (\u221an) log n).",
+      "c)   T (n) = O(n).",
+      "d)  T (n) = O(n log n)."
+    ],
+    "correctAnswer": "a)   T (n) = O(n2)."
+  },
+  {
+    "id": "algo_17",
+    "questionText": "Binary search tree T is said to be balanced when, for every node n in T ,",
+    "options": [
+      "a)   n\u2019s left and right subtrees have equal height.",
+      "b)  n\u2019s left and right subtrees have equal size.",
+      "c)   n\u2019s left and right subtrees have heights that differ by at most one.",
+      "d) n\u2019s left and right subtrees have sizes that differ by at most one."
+    ],
+    "correctAnswer": "a)   n\u2019s left and right subtrees have equal height."
+  },
+  {
+    "id": "algo_18",
+    "questionText": "If numbers from the set {1,...., n} are selected at random (without replacement) and inserted into an initially-empty binary search tree, then the big-O expression that best describes the average (taken over all possible resulting trees) height of the resulting tree is",
+    "options": [
+      "a)   O(n).",
+      "b)O(log n).",
+      "c)   O( (\u221an)).",
+      "d)   O(n)."
+    ],
+    "correctAnswer": "a)   O(n)."
+  },
+  {
+    "id": "algo_19",
+    "questionText": "Which of the following sorting tasks would not be appropriate for Counting Sort? Fall 2020",
+    "options": [
+      "a)   sorting millions of products by their 15-digit serial numbers",
+      "b) sorting millions of employees by their ages",
+      "c)   sorting each day of the calendar year by the high temperature (in Celsius",
+      "d) sorting each vehicle registered in the state of California by the year it was"
+    ],
+    "correctAnswer": "a)   sorting millions of products by their 15-digit serial numbers"
+  },
+  {
+    "id": "algo_20",
+    "questionText": "Which of the following best describes the worst-case running time of Insertion Sort when sorting n 32-bit unsigned integers?",
+    "options": [
+      "a)   T (n) = \u03b8(n)",
+      "b) T (n) = \u03b8(n)",
+      "c)   T (n) =  \u03b8(n log n)",
+      "d) T (n) =  \u03b8(n2)"
+    ],
+    "correctAnswer": "a)   T (n) = \u03b8(n)"
+  },
+  {
+    "id": "algo_21",
+    "questionText": "Quicksort is guaranteed to run in time O(n log n) so long as the pivot is",
+    "options": [
+      "a)   randomly selected.",
+      "b) set to the median of the  rst, middle, and last array element.",
+      "c)   set to the median of the array.",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a)   randomly selected."
+  },
+  {
+    "id": "algo_22",
+    "questionText": "When following Kruskal\u2019s algorithm, the greedy choice is to",
+    "options": [
+      "a)   remove the edge of greatest cost from the graph so long as its removal does",
+      "b) add the edge of least cost to the forest so long as its addition does not",
+      "c)   add the vertex having least connection cost to the current tree.",
+      "d) remove the vertex having greatest connection cost from the tree."
+    ],
+    "correctAnswer": "a)   remove the edge of greatest cost from the graph so long as its removal does"
+  },
+  {
+    "id": "algo_23",
+    "questionText": "When following Huffman\u2019s algorithm, the greedy choice is to",
+    "options": [
+      "a)   select the two probabilities of least value for merging.",
+      "b) select the two probabilities of greatest value for merging.",
+      "c)   add the codeword of shortest length to the code being constructed.",
+      "d) remove the codeword of greatest length from the code being constructed."
+    ],
+    "correctAnswer": "a)   select the two probabilities of least value for merging."
+  },
+  {
+    "id": "algo_24",
+    "questionText": "Which of the following greedy algorithms has an implementation that most resembles that of Dijkstra\u2019s algorithm?",
+    "options": [
+      "a)   Kruskal\u2019s algorithm",
+      "b) Prim\u2019s algorithm",
+      "c)   Huffman\u2019s algorithm",
+      "d) Floyd-Warshall algorithm"
+    ],
+    "correctAnswer": "a)   Kruskal\u2019s algorithm"
+  },
+  {
+    "id": "algo_25",
+    "questionText": "If T (n) satisfies T (n) = 2T(n/3) +\u221an, then",
+    "options": [
+      "a)   T (n) =  (  n).",
+      "b) T (n) =  (n2).",
+      "c)",
+      "d) T (n) =  (nlog 3)."
+    ],
+    "correctAnswer": "a)   T (n) =  (  n)."
+  },
+  {
+    "id": "algo_26",
+    "questionText": "Which of the following recurrences cannot be solved directly by the Master Theorem? Fall 2020",
+    "options": [
+      "a)   T (n) = 16T (n/4) + n",
+      "b) T (n) = T (n/5) + 20",
+      "c)   T (n) = 3T (n/4) + n log n",
+      "d) T (n) = 2T (n/2) + n log n"
+    ],
+    "correctAnswer": "a)   T (n) = 16T (n/4) + n"
+  },
+  {
+    "id": "algo_27",
+    "questionText": "The running time of Strassen\u2019s algorithm is",
+    "options": [
+      "a)   T (n) =  \u03b8(n2).",
+      "b) T (n) =  \u03b8(n2.5).",
+      "c)   T (n) =  \u03b8(nlog 7).",
+      "d) T (n) =  \u03b8(n3)."
+    ],
+    "correctAnswer": "a)   T (n) =  \u03b8(n2)."
+  },
+  {
+    "id": "algo_28",
+    "questionText": "In dynamic-programming \u201cmemoization\" refers to",
+    "options": [
+      "a)   storing the dynamic-programming recurrence in a static array so that it may",
+      "b) storing solutions to smaller subproblems for future look up when solving",
+      "c)   the ability of a dynamic-programming algorithm to remember the current",
+      "d) the ability to remember dynamic-programming recurrences for a comprehensive"
+    ],
+    "correctAnswer": "a)   storing the dynamic-programming recurrence in a static array so that it may"
+  },
+  {
+    "id": "algo_29",
+    "questionText": "All of the following problems can be solved with a dynamic-programming algorithm that runs in worst-case polynomial time, except for fall 2020",
+    "options": [
+      "a)   Matrix Chain Multiplication.",
+      "b) Optimal Binary Search Tree",
+      "c)   Edit Distance Between Words",
+      "d) 0-1 Knapsack"
+    ],
+    "correctAnswer": "a)   Matrix Chain Multiplication."
+  },
+  {
+    "id": "algo_30",
+    "questionText": "The Floyd-Warshall dynamic-programming algorithm defines the matrix of numbers dkij, where i and j are graph vertices satisfying 1<=i; j<=n, andk \u2208 {0, 1, . . . , n}. Moreover, dkij represents",
+    "options": [
+      "a)   the distance from i to j when restricted to paths that traverse at most k",
+      "b) the distance from i to j when restricted to paths that traverse at least k",
+      "c)   the distance from i to j when restricted to paths whose intermediate vertices",
+      "d) the distance from i to j when restricted to paths whose intermediate vertices"
+    ],
+    "correctAnswer": "a)   the distance from i to j when restricted to paths that traverse at most k"
+  },
+  {
+    "id": "algo_31",
+    "questionText": "The problem of determining if a bipartite graph has a perfect matching is most naturally reduced to the problem of",
+    "options": [
+      "a)   finding a Hamilton cycle in a simple graph.",
+      "b) finding a vertex cover in a simple graph.",
+      "c)   finding the maximum flow in a directed network.",
+      "d) finding the longest path in a directed network."
+    ],
+    "correctAnswer": "a)   finding a Hamilton cycle in a simple graph."
+  },
+  {
+    "id": "algo_32",
+    "questionText": "The problem of determining the maximum ow in a directed network is most naturally reduced to the problem of",
+    "options": [
+      "a)   determining if a 0-1 Knapsack has a pro t that exceeds some threshold.",
+      "b) finding the longest path in a directed network.",
+      "c)   determining if there is a path from one vertex to another in a graph.",
+      "d) finding the longest path in an acyclic directed network."
+    ],
+    "correctAnswer": "a)   determining if a 0-1 Knapsack has a pro t that exceeds some threshold."
+  },
+  {
+    "id": "algo_33",
+    "questionText": "Professor Jones has just proved that there is no polynomial-time algorithm for solving the 0-1 Knapsack optimization problem. Because of this we also know there is no polynomial-time algorithm for solving each of the following problems, except for",
+    "options": [
+      "a)   determining if a Boolean formula has a satisfying assignment.",
+      "b) determining if a graph has a Hamilton cycle.",
+      "c)   determining if a set of integers has a subset that sums to some value t.",
+      "d) determining the longest path in a directed acyclic graph."
+    ],
+    "correctAnswer": "a)   determining if a Boolean formula has a satisfying assignment."
+  },
+  {
+    "id": "algo_34",
+    "questionText": "The Subset Sum decision problem is most closely associated with",
+    "options": [
+      "a)   the Set Partition decision problem.",
+      "b) the 3SAT decision problem.",
+      "c)   the Hamilton Cycle decision problem.",
+      "d) the Vertex Cover decision problem.",
+      "a) O(n). b) O(log n). c) O(\u221a n). d) O(n).",
+      "a) sorting millions of products by their 15-digit serial numbers",
+      "b) sorting millions of employees by their ages",
+      "c) sorting each day of the calendar year by the high temperature (in Celsius rounded to the",
+      "a) O(logn)",
+      "b) O(n)",
+      "c) O(nlogn)",
+      "d) O(n^2)"
+    ],
+    "correctAnswer": "a)   the Set Partition decision problem."
+  },
+  {
+    "id": "algo_1",
+    "questionText": "T(n) = 16T(n/4) + n",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_2",
+    "questionText": "T(n) = T(n/5) + 20",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_3",
+    "questionText": "T(n) = 3T(n/4) + n log n",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_4",
+    "questionText": "T(n) = 2T(n/2) + n log n Ans: f(n) = theta g(n) 12)   If the algorithm takes 1 second to process an input of size 100,000. Then approximately how long will it take to process an input of size 200,000 for a quadratic function?",
+    "options": [
+      "a)1second",
+      "a) T(n) = O(n 2 ).",
+      "b) T(n) = O(\u221a n log n).",
+      "c) T(n) = O(n).",
+      "d) T(n) = O(n log n).",
+      "a) sorted in ascending order",
+      "b) sorted in descending order",
+      "c) randomly set array",
+      "d) if it's constant like a[0]=a[1]=\u2026\u2026\u2026.=a[n]",
+      "a) T(n) = \u0398(n 2 ).",
+      "b) T(n) = \u0398(n 2.5 ).",
+      "c) T(n) = \u0398(n log 7).",
+      "d) T(n) = \u0398(n 3 ).",
+      "a) Matrix Chain Multiplication.",
+      "b) Optimal Binary Search Tree",
+      "c) Edit Distance Between Words",
+      "d) 0-1 Knapsack",
+      "a) Kruskal\u2019s algorithm",
+      "b) Prim\u2019s algorithm",
+      "c) Huffman\u2019s algorithm",
+      "d) Floyd-Warshall algorithm",
+      "a) k = l.",
+      "b) k < l. <verify>",
+      "c) k > l.",
+      "d) none of the above",
+      "a) k = l.",
+      "b) k < l.<verify>",
+      "c) k > l.",
+      "d) none of the above",
+      "a)O(n^2)",
+      "b)O(n^3)",
+      "c)O(n^4)",
+      "d)none",
+      "a) theta(nlogn)",
+      "b) theta(logn)",
+      "c) theta(n)",
+      "d) none",
+      "a) a-b-c-d",
+      "b) g",
+      "c) c-f-e-g",
+      "d) all/none",
+      "a) in dergree",
+      "b) out degree",
+      "c) least??",
+      "d) ????"
+    ],
+    "correctAnswer": "a)1second"
+  },
+  {
+    "id": "algo_1",
+    "questionText": "When executing the Minimum-Distance-Pair algorithm on some set of points P ,s u p p o s et h e dividing line occurs at x =2 ,a n dt h e \u0000-strip width is 2 \u0000,w h e r e\u0000 =1 .5, then which of the following pairs of points cannot possibly be in P ?",
+    "options": [
+      "a) (3, 6), (5 , 5)",
+      "b) (1, \u0000 1), (2 .15, \u0000 1.05)",
+      "c) (3, 5), (4 , 4)",
+      "d) Each pair could feasibly be in P"
+    ],
+    "correctAnswer": "a) (3, 6), (5 , 5)"
+  },
+  {
+    "id": "algo_2",
+    "questionText": "Consider the following divide-and-conquer algorthim that takes as input a set S of n =2 k distinct integers, k \u0000 1, and returns both the least and greatest integer of S as the pair ( g, l), where g is the greatest, and l is the least. Base case: if n =2 ,t h e nc o m p a r et h et w o numbers, and return the pair ( g, l), where g equals the greater of the two, and l the lesser of the two. Recursive case: divide the integers into two sets of equal size S1 and S2.F o r i =1 , 2, call the algorithm on Si to get ( gi,l i). After comparing g1 with g2,a n d l1 with l2, return (max(g1,g 2), min(l1,l 2)). Which of the following expressions represents the total number of comparisons used by this algorithm?",
+    "options": [
+      "a)",
+      "b) n/2+",
+      "c) n/2+ n/4+ n/8+ \u00b7\u00b7\u00b7 +2+1",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a)"
+  },
+  {
+    "id": "algo_3",
+    "questionText": "Suppose the Find Statistic algorithm uses groups of size g to compute the pivot, where g \u0000 5 is an arbitrary odd integer. Then, regardless of g\u2019s value, a good approximate lower bound for the number of integers on either side of the pivot is",
+    "options": [
+      "a) 2n/5.",
+      "b) 3n/10.",
+      "c) n/4.",
+      "d) n/5"
+    ],
+    "correctAnswer": "a) 2n/5."
+  },
+  {
+    "id": "algo_4",
+    "questionText": "Consider the following divide-and-conquer algorithm, called Multi-Find Statistic (MFS), for simultaneously \ufb01nding a set of m of distinct statistics S = {k1,k 2,...,k m} for an array a of n integers. For example, if a =5 , 1, 4, 8, 7, and S = {0, 2}, then the algorithm would return {1, 5},s i n c e1i st h e0 t hl e a s ti n t e g e r ,a n d5i st h e2 n dl e a s ti n t e g e r .Base case 1: if S = ;, then return ;. Base case 2: if S = {k}, then use the Find Statistic algorithm described in lecture, and return the singleton set {s},w h e r es is the k th least element of a. Recursive case: use the Find Statistic algorithm to determine the median M of a,a n dp e r f o r mt h e Quicksort partitioning algorithm using M as pivot. Let i denote the resulting index location of M .L e t Sleft denote the values of S that are less than i, Sright denote the values of S that are greater than i.I f i 2 S,t h e nr e t u r n MFS (aleft,S left) [ MFS (aright,S right) [{ M }. Otherwise return MFS (aleft,S left) [ MFS (aright,S right). Then the worst case running time of MFS is",
+    "options": [
+      "a) O(n)",
+      "b) O(n log n)",
+      "c) O(n log m)",
+      "d) O(n2)"
+    ],
+    "correctAnswer": "a) O(n)"
+  },
+  {
+    "id": "algo_5",
+    "questionText": "Suppose a and b are two sorted integer arrays of size n,w h e r en is odd. Let ma denote the median of a and mb denote the median of b. Also, let, e.g., aleft (respectively, aright)d e n o t e the ( n \u0000 1)/2m e m b e r so fa that are to the left (respectively, to the right) of ma.M o r e o v e r , suppose ma <m b.T h e n i t m u s t b e t r u e t h a t m e d i a n (a [ b)=",
+    "options": [
+      "a) median(a \u0000 aleft [ b \u0000 bleft).",
+      "b) median(a \u0000 aright [ b \u0000 bright).",
+      "c) median(a \u0000 aright [ b \u0000 bleft).",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) median(a \u0000 aleft [ b \u0000 bleft)."
+  },
+  {
+    "id": "algo_6",
+    "questionText": "Suppose A is a n \u21e5 n matrix, n even, and let q denote the upper-right quadrant matrix of A; i.e. q = \u02c6A12.T h e n e n t r y (i, j)o f q corresponds with entry of A.",
+    "options": [
+      "a) (i, j \u0000 n/2)",
+      "b) (i, j + n/2)",
+      "c) (i \u0000 n/2,j )",
+      "d) (i + n/2,j )"
+    ],
+    "correctAnswer": "a) (i, j \u0000 n/2)"
+  },
+  {
+    "id": "algo_7",
+    "questionText": "What is the largest k such that, if you can multiply 7 \u21e5 7 matrices using k multiplications, then you can multiply matrices in time o(nlog 7)?",
+    "options": [
+      "a) k =4 9",
+      "b) k =2 3 5",
+      "c) k =2 4 3",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) k =4 9"
+  },
+  {
+    "id": "algo_8",
+    "questionText": "Consider the following algorithm called multiply for multiplying two n-bit binary numbers x and y.L e t xL and xR be the leftmost dn/2e and rightmost bn/2c bits of x respectively. De\ufb01ne yL and yR similarly. Let P1 be the result of calling multiply on inputs xL and yL, P2 be the result of calling multiply on inputs xR and yR,a n d P3 the result of calling multiply on inputs xL + xR and yL + yR.T h e n r e t u r n t h e v a l u eP1 \u21e5 22bn 2 c +( P3 \u0000 P1 \u0000 P2) \u21e5 2bn/2c + P2.T h e n for x =1 0 1 0 1 0 1a n dy =0 1 1 1 0 1 1 ,e a c ho ft h ef o l l o w i n gi sar e t u r nv a l u eo fo n eo ft h er e c u r s i v e calls to multiply,e x c e p tf o r",
+    "options": [
+      "a) 140.",
+      "b) 15.",
+      "c) 70.",
+      "d) 150."
+    ],
+    "correctAnswer": "a) 140."
+  },
+  {
+    "id": "algo_9",
+    "questionText": "For the Minimum Positive Subsequence Sum (MPSS) algorithm described in the lecture notes, when calculating MPSS middle,s u p p o s et h ec a l c u l a t e dl e f ts u m sa r e\u0000 30, 52, \u0000 45, 26, \u0000 9, while the calculated right sums are 28 , \u0000 42, 38, \u0000 70, 59, then MPSS middle is necessarily equal to",
+    "options": [
+      "a) 14.",
+      "b) 10.",
+      "c) 8.",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) 14."
+  },
+  {
+    "id": "algo_1",
+    "questionText": "Let fn denote the n th Fibonacci number. Then fn has closed-form fn = c1( 1+ p 5 2 )n + c2( 1 \u0000 p 5 2 )n, where \u2713 c1 c2 \u25c6 satis\ufb01es the matrix equation A \u2713 c1 c2 \u25c6 = \u2713 f1 f0 \u25c6 , and matrix A has determinant equal to",
+    "options": [
+      "a) 1",
+      "b)",
+      "c) \u0000",
+      "d) 1+"
+    ],
+    "correctAnswer": "a) 1"
+  },
+  {
+    "id": "algo_2",
+    "questionText": "The fact that is most responsible for the Fibonacci sequence having exponential growth is",
+    "options": [
+      "a) fn =\u2326 ( 2n).",
+      "b) fn =\u2326 (nk), for every positive integer k.",
+      "c) fn = !(",
+      "d) (1 +"
+    ],
+    "correctAnswer": "a) fn =\u2326 ( 2n)."
+  },
+  {
+    "id": "algo_3",
+    "questionText": "The following instance of the 0-1 Knapsack problem has the item table item weight pro\ufb01t 12 1 5 24 2 0 35 2 0 44 1 5 53 2 0 and a capacity equal to 10. Let p(i, c)b et h ed y n a m i c - p r o g r a m m i n gm a t r i xa s s o c i a t e dw i t h this instance, where 0 \uf8ff i \uf8ff 5, and 0 \uf8ff c \uf8ff 10. Then the matrix entries sum to 5X i=0 10X c=0 p(i, c)= 1",
+    "options": [
+      "a) 1,175.",
+      "b) 1,185.",
+      "c) 1,200.",
+      "d) 1,215."
+    ],
+    "correctAnswer": "a) 1,175."
+  },
+  {
+    "id": "algo_4",
+    "questionText": "The dynamic-programming matrix xi,c 0 1 2 3 4 5 6 7 8 x1 0 2 2 2 2 2 2 2 2 x2 0 2 4 6 6 6 6 6 6 x3 0 2 4 6 7 9 11 11 11 x4 0 2 4 6 7 9 11 11 12 x5 0 2 4 6 7 9 11 11 13 x6 0 3 5 7 9 10 12 14 14 solves an instance of 0-1 Knapsack having 6 items, x1,...,x 6, and a capacity equal to 8. From this table we may conclude that the optimal solution has a total weight equal to",
+    "options": [
+      "a) 5.",
+      "b) 6.",
+      "c) 7.",
+      "d) 8."
+    ],
+    "correctAnswer": "a) 5."
+  },
+  {
+    "id": "algo_5",
+    "questionText": "The dynamic-programming matrix xi,c 0 1 2 3 4 5 6 7 8 x1 0 2 2 2 2 2 2 2 2 x2 0 2 4 6 6 6 6 6 6 x3 0 2 4 6 7 9 11 11 11 x4 0 2 4 6 7 9 11 11 12 x5 0 2 4 6 7 9 11 11 13 x6 0 3 5 7 9 10 12 14 14 solves an instance of 0-1 Knapsack having 6 items, x1,...,x 6, and a capacity equal to 8. From this table we may conclude that the optimal solution does not include item",
+    "options": [
+      "a) 1.",
+      "b) 2.",
+      "c) 3.",
+      "d) 4."
+    ],
+    "correctAnswer": "a) 1."
+  },
+  {
+    "id": "algo_6",
+    "questionText": "Consider the dynamic-programming matrix d(i, j)f o rt h ee d i t - d i s t a n c ei n s t a n c eu =a b a b aa n d v =a b b a b b a ,w h e r e0\uf8ff i \uf8ff 5, and 0 \uf8ff j \uf8ff 7. Then the matrix entries sum to 5X i=0 7X j=0 d(i, j)=",
+    "options": [
+      "a) 119.",
+      "b) 124.",
+      "c) 128.",
+      "d) 134."
+    ],
+    "correctAnswer": "a) 119."
+  },
+  {
+    "id": "algo_7",
+    "questionText": "Consider the dynamic-programming matrix d(i, j)f o rt h ee d i t - d i s t a n c ei n s t a n c eu =b c a a a c a and v =c a b a b a c ,w h e r e0\uf8ff i \uf8ff 7, and 0 \uf8ff j \uf8ff 7. Then the matrix entries sum to 7X i=0 7X j=0 d(i, j)=",
+    "options": [
+      "a) 218.",
+      "b) 223.",
+      "c) 231.",
+      "d) 237."
+    ],
+    "correctAnswer": "a) 218."
+  },
+  {
+    "id": "algo_8",
+    "questionText": "The number of di\u21b5erent optimal edit squences that can transform u =b c a b c a b ct ov =a b c a a c a c is equal to",
+    "options": [
+      "a) 1.",
+      "b) 2.",
+      "c) 3.",
+      "d) 4."
+    ],
+    "correctAnswer": "a) 1."
+  },
+  {
+    "id": "algo_9",
+    "questionText": "The number of di\u21b5erent optimal edit squences that can transform u = SIAM and v =L I M Ai s equal to",
+    "options": [
+      "a) 1.",
+      "b) 2.",
+      "c) 3.",
+      "d) 4."
+    ],
+    "correctAnswer": "a) 1."
+  },
+  {
+    "id": "algo_1",
+    "questionText": "Ab i n a r ys e a r c ht r e eT holds Keys 1-5, where key i has weight 10 i,f o r i =1 , 2,..., 5. If T is optimal with respect to weighted access cost, then its weighted access cost must equal",
+    "options": [
+      "a) 270.",
+      "b) 300.",
+      "c) 340.",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) 270."
+  },
+  {
+    "id": "algo_2",
+    "questionText": "Ab i n a r ys e a r c ht r e eT holds Keys 1-5, where key i has weight 10 i,f o r i =1 , 2,..., 5. If T is optimal with respect to weighted access cost, then its root key must equal",
+    "options": [
+      "a) 2.",
+      "b) 3.",
+      "c) 4.",
+      "d) 5."
+    ],
+    "correctAnswer": "a) 2."
+  },
+  {
+    "id": "algo_3",
+    "questionText": "Ab i n a r ys e a r c ht r e eT holds Keys 1-63, where key i has weight wi, i =1 ,..., 63. If wac( i, j) denotes the minimum weighted access cost of any tree that holds keys i through j of this tree, then, according to the dynamic-programming recurrence used to compute wac( i, j), entry wac(25, 32) is used exactly times in order to compute other entries of wac.",
+    "options": [
+      "a) 8.",
+      "b) 25.",
+      "c) 31.",
+      "d) 55."
+    ],
+    "correctAnswer": "a) 8."
+  },
+  {
+    "id": "algo_4",
+    "questionText": "Given matrices A1 :6 \u21e5 3, A2 :3 \u21e5 2, A3 :2 \u21e5 5, A4 :5 \u21e5 4, let mc( i, j)d e n o t et h em i n i m u m multiplication complexity that is required when computing Ai \u00b7\u00b7\u00b7 Aj ,w h e r e1 \uf8ff i \uf8ff j \uf8ff 4. Then the entries of this matrix sum to",
+    "options": [
+      "a) 390.",
+      "b) 402.",
+      "c) 412.",
+      "d) 420."
+    ],
+    "correctAnswer": "a) 390."
+  },
+  {
+    "id": "algo_5",
+    "questionText": "If d(u, v) denotes the distance from vertex u to vertex v in a directed acyclic graph G =( V, E), then it is always true that",
+    "options": [
+      "a) d(u, v)= 1 if u has zero in degree.",
+      "b) d(u, v)= 1 if v has zero out degree.",
+      "c) there is a w 6= u, v for which d(u, v)= d(u, w)+ d(w, v).",
+      "d) none of the above is always true"
+    ],
+    "correctAnswer": "a) d(u, v)= 1 if u has zero in degree."
+  },
+  {
+    "id": "algo_6",
+    "questionText": "Consider the problem of \ufb01nding the longest increasing subsequence in the integer array a = 22, 18, 31, 20, 14, 38, 20, 41. When this problem is modeled as \ufb01nding the longest path in a directed acyclic graph, then the outward degrees of all vertices in the corresponding graph sum to",
+    "options": [
+      "a) 8.",
+      "b) 17.",
+      "c) 20.",
+      "d) 34."
+    ],
+    "correctAnswer": "a) 8."
+  },
+  {
+    "id": "algo_7",
+    "questionText": "Consider a problem whose dynamic programming solution for an instance of size n involves completing an n \u21e5 n matrix A.M o r e o v e r , e n t r yaij of A is used for computing the values of |i \u0000 j| other entries in the matrix. Therefore, the total number of steps required to complete the matrix is equal to",
+    "options": [
+      "a) O(n).",
+      "b) O(n2).",
+      "c) O(n3).",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) O(n)."
+  },
+  {
+    "id": "algo_8",
+    "questionText": "A production plant has two assembly lines. Each line has n stations. Moreover, entry aij of 2 \u21e5 n matrix A gives the processing times for an item that is being assembled at station j of line i. When an item \ufb01nishes stage j<n of line i, it has the option of either remaining on line i and proceeding to stage j +1 , o r m o v i n g t o t h e o t h e r l i n e , a n d t h e n p r o c e e d i n g t o s t a g e j +1 . I f i t c h o o s e s t o s t a y o n t h e s a m e l i n e , t h e n i t r e q u i r e s\u0000> 0u n i t so ft i m et om o v et o the next station. Otherwise it requires \u270f> 0u n i t so ft i m et om o v et ot h en e x ts t a t i o nl o c a t e d on the other line. The problem is to determine the optimal route a single item should take in order to minimize the total time required to process the item. When solving this problem with dynamic programming, the number of subproblems that needs to be solved is equal to",
+    "options": [
+      "a) O(n).",
+      "b) O(n2).",
+      "c) O(n3).",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) O(n)."
+  },
+  {
+    "id": "algo_9",
+    "questionText": "Given n cities, let C be an n \u21e5 n matrix whose Cij entry represents the cost of traveling from city i to city j,1 \uf8ff i, j \uf8ff n.M o r e o v e r , t h e p r o b l e m i s t o d e t e r m i n e a m i n i m u m - c o s t t o u r t h a t begins at city 1 and visits every other city at most once. T o solve this problem using dynamic programming, let mc( i, A) denote the minimum-cost tour that begins at city i and visits every city in A,w h e r eA is a subset of cities that does not include i.T h e n mc(i, A)= 8",
+    "options": [
+      "<",
+      ":",
+      "a) O(n).",
+      "b) O(n2).",
+      "c) O(n3).",
+      "d) none of the above"
+    ],
+    "correctAnswer": ":"
+  },
+  {
+    "id": "algo_1",
+    "questionText": "When running the Floyd-Warshall algorithm, matrix d3 is computed as d3 = 0 BBBB@ 02144 10435 51022 71802 13440 1 CCCCA Then d3 di\u21b5ers from d4 in exactly places.",
+    "options": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) 1"
+  },
+  {
+    "id": "algo_2",
+    "questionText": "Let G =( {1, 2,...,n },E ,c ) be a weighted, connected undirected graph. Then when running the Floyd-Warshall algorithm on G,t h e least number of ( i, j)-entries for which d0 ij = dn ij is",
+    "options": [
+      "a) 1",
+      "b) 2n.",
+      "c) 3n.",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) 1"
+  },
+  {
+    "id": "algo_3",
+    "questionText": "When computing d5 in the Floyd-Warshall algorithm, row 5 of d4 is equal to row 5 of d5 since",
+    "options": [
+      "a) vertex 5 cannot be an intermediate vertex when optimally traveling from vertex 5 to",
+      "b) vertex 5 cannot be an intermediate vertex when optimally traveling to vertex 5 from",
+      "c) both a and b",
+      "d) neither a nor b"
+    ],
+    "correctAnswer": "a) vertex 5 cannot be an intermediate vertex when optimally traveling from vertex 5 to"
+  },
+  {
+    "id": "algo_4",
+    "questionText": "In the matrix multiplication approach to \ufb01nding all-pairs distances, if D1 = 0 BB@ 0251 1026 2402 1390 1 CCA Then D1 di\u21b5ers from D2 in exactly places.",
+    "options": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) 1"
+  },
+  {
+    "id": "algo_5",
+    "questionText": "In the matrix multiplication approach to \ufb01nding all-pairs distances, generally speaking, mul- tiplication involving the matrices D1,D 2,...,D n\u00001 will satisfy all of the following properties, except for",
+    "options": [
+      "a) commutativity.",
+      "b) associativity.",
+      "c) distributivity.",
+      "d) all of the above properties are satis\ufb01ed"
+    ],
+    "correctAnswer": "a) commutativity."
+  },
+  {
+    "id": "algo_6",
+    "questionText": "The Turing-reducibility relation \uf8ffT over computing problems always satis\ufb01es each of the fol- lowing properties, except for",
+    "options": [
+      "a) re\ufb02exivity.",
+      "b) symmetry.",
+      "c) transitivity.",
+      "d) all of the above properties are satis\ufb01ed"
+    ],
+    "correctAnswer": "a) re\ufb02exivity."
+  },
+  {
+    "id": "algo_7",
+    "questionText": "Suppose L1 \uf8ffT L2 via an algorithm that has running time O( n2 log n), and L2 \uf8ffT L3 via an algorithm that has running time O( n3), where n is a size parameter for instances of problems L1 and L2.T h e n L1 \uf8ffT L3 via an algorithm with running time that is",
+    "options": [
+      "a) O(n5 log4 n)",
+      "b) O(n6 log3 n).",
+      "c) O(n7 log4 n).",
+      "d) O(n8 log4 n)."
+    ],
+    "correctAnswer": "a) O(n5 log4 n)"
+  },
+  {
+    "id": "algo_8",
+    "questionText": "Given 2SAT instance C, suppose there is no path from x to x in the implication graph GC ,t h e n",
+    "options": [
+      "a) C is satis\ufb01able.",
+      "b) if C is unsatis\ufb01able, then there must be a path from x to x.",
+      "c) if C satis\ufb01able, then there is some satisfying assignment \u21b5 for which \u21b5(x)=0 .",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) C is satis\ufb01able."
+  },
+  {
+    "id": "algo_9",
+    "questionText": "Which of the following implications is not implied by the inclusive-or statement P _Q.",
+    "options": [
+      "a) P ! Q",
+      "b) P ! Q",
+      "c) Q ! P",
+      "d) all of the above are implied"
+    ],
+    "correctAnswer": "a) P ! Q"
+  },
+  {
+    "id": "algo_10",
+    "questionText": "Which of the following implications is not implied by the exclusive-or statement P \u0000 Q.",
+    "options": [
+      "a) P ! Q",
+      "b) P ! Q",
+      "c) Q ! P",
+      "d) all of the above are implied"
+    ],
+    "correctAnswer": "a) P ! Q"
+  },
+  {
+    "id": "algo_1",
+    "questionText": "Given 2SAT instance C, which of the following statements implies that there is a unique sat- isfying assignment for C. Note: Rx denotes the reachability set for x in the implication graph GC .",
+    "options": [
+      "a) For every variable x on which C depends, either Rx or Rx is consistent, but not both.",
+      "b) GC has no inconsistent cycles.",
+      "c) There is a reachability set Rx for which \u21b5Rx satis\ufb01es every clause of C.",
+      "d) None of the above imply a unique satisfying assignment."
+    ],
+    "correctAnswer": "a) For every variable x on which C depends, either Rx or Rx is consistent, but not both."
+  },
+  {
+    "id": "algo_2",
+    "questionText": "Given 2SAT instance C,w h i c ho ft h ef o l l o w i n gs t a t e m e n t si se q u i v a l e n tt oC being unsatis\ufb01able.",
+    "options": [
+      "a) Implication graph GC has a simple path of length 2 n\u00001, where n is the number of variables",
+      "b) There is no variable x for which both Rx and Rx are consistent.",
+      "c) There is a variable x for which both Rx and Rx are inconsistent.",
+      "d) None of the above are equivalent to being unsatis\ufb01able."
+    ],
+    "correctAnswer": "a) Implication graph GC has a simple path of length 2 n\u00001, where n is the number of variables"
+  },
+  {
+    "id": "algo_3",
+    "questionText": "Given directed network G =( V, E, c, s, t)a n d\ufb02 o w f over G,s u p p o s eP is a simple positive- capacity path from s to t in N (G, f), and that traverses the edges ( u, v)a n d( v, w), where (u, v)a n d( v, w)a r eb o t hb a c k w a r de d g e sr e l a t i v et oG.L e t t i n gcmin > 0d e n o t et h em i n i m u m capacity of any edge traversed by P ,a n d f 0 =\u0000 ( f, P )d e n o t et h eu p d a t e d\ufb02 o wo v e rG,t h e n the net change in \ufb02ow entering vertex v is equal to",
+    "options": [
+      "a) 0.",
+      "b) cmin.",
+      "c) \u0000cmin.",
+      "d) not enough information"
+    ],
+    "correctAnswer": "a) 0."
+  },
+  {
+    "id": "algo_4",
+    "questionText": "Given directed network G =( V, E, c, s, t)a n d\ufb02 o w f over G,s u p p o s eP is a simple positive- capacity path from s to t in N (G, f), and that traverses the edges ( u, v)a n d( v, w), where (u, v)i sab a c k w a r de d g e ,a n d(v, w)i saf o r w a r de d g er e l a t i v et oG.L e t t i n gcmin > 0 denote the minimum capacity of any edge traversed by P ,a n d f 0 = \u0000(f, P )d e n o t et h eu p d a t e d\ufb02 o w over G,t h e nt h en e tc h a n g ei n\ufb02 o we n t e r i n gv is equal to",
+    "options": [
+      "a) 0.",
+      "b) cmin.",
+      "c) \u0000cmin.",
+      "d) not enough information"
+    ],
+    "correctAnswer": "a) 0."
+  },
+  {
+    "id": "algo_5",
+    "questionText": "Given directed network G =( V, E, c, s, t)a n d\ufb02 o w f over G,l e t H be a \ufb02ow-conserving (i.e. neither s 2 H nor t 2 H)s u b g r a p ho fG, and having total in/out \ufb02ow equal to 76 units. Now suppose vertex v 2 H is removed from H,a n da l lt h ee d g e st h a ta r ei n c i d e n tw i t hv are listed in the following table. Edge Orientation Membership Flow (u1,v )i n u1 62H 6 (u2,v )i n u2 2 H 9 (u3,v )i n u3 62H 4 (v, u4)o u t u4 2 H 8 (v, u5)o u t u5 62H 4 (v, u6)o u t u6 2 H 7 For example, edge ( u1,v ) is directed into v,c a r r i e sa\ufb02 o we q u a lt o6 ,a n du1 is not a member of H.T h e n a f t e rv is removed from H, H has a new total in/out \ufb02ow equal to units. Hint: although v has been removed from H,i ti ss t i l li nn e t w o r kG,a n dn o n eo fi t se d g e sh a v eb e e n a\u21b5ected.",
+    "options": [
+      "a) 57",
+      "b) 66",
+      "c) 85",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) 57"
+  },
+  {
+    "id": "algo_6",
+    "questionText": "Ac o n s e q e n c eo ft h ef a c tt h a t\u201c i ti sn o tp o s s i b l et od e \ufb01 n eap o s i t i v e\ufb02 o wo nan e t w o r kf o rw h i c h only one node (i.e. the source) does not conserve \ufb02ow\u201d is that",
+    "options": [
+      "a) every network must have at least one \ufb02ow-conserving subgraph.",
+      "b) there must be a path from s to t along edges having positive \ufb02ow.",
+      "c) for every network G =( V, E, c, s, t)a n dp o s i t i v e\ufb02 o wf over G,t h e r ee x i s t sa\ufb02 o wg for",
+      "d) All of the above are consequences of the above fact."
+    ],
+    "correctAnswer": "a) every network must have at least one \ufb02ow-conserving subgraph."
+  },
+  {
+    "id": "algo_7",
+    "questionText": "Given bipartite graph G =( V1,V 2,E ), where |E| = m,i f M is a matching for G,t h e nt h e\ufb02 o w network FG,M has edges that are oriented from right to left.",
+    "options": [
+      "a) |M |",
+      "b) m \u0000| M |",
+      "c) 3|M |",
+      "d) m \u0000 3|M |"
+    ],
+    "correctAnswer": "a) |M |"
+  },
+  {
+    "id": "algo_8",
+    "questionText": "Given bipartite graph G =( V1,V 2,E ), |V1| = |V2| = n,a n dm a t c h i n gM for G,t h e\ufb02 o wn e t w o r k FG,M admits an alternating path of length at most (hint: we assume the path begins at s and ends at t) 2",
+    "options": [
+      "a) n +3 .",
+      "b) |M | +2 .",
+      "c) 2n +2 .",
+      "d) 2|M | +3 ."
+    ],
+    "correctAnswer": "a) n +3 ."
+  },
+  {
+    "id": "algo_9",
+    "questionText": "The worst case running time for the maximum-matching algorithm presented in class is (hint: m is number of edges, n is number of vertices)",
+    "options": [
+      "a) O(m + n)",
+      "b) O(m2n)",
+      "c) O(mn2)",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) O(m + n)"
+  },
+  {
+    "id": "algo_10",
+    "questionText": "Which of the following implications is not implied by the statement P = Q.",
+    "options": [
+      "a) P ! Q",
+      "b) P ! Q",
+      "c) Q ! P",
+      "d) all of the above are implied"
+    ],
+    "correctAnswer": "a) P ! Q"
+  },
+  {
+    "id": "algo_1",
+    "questionText": "The decision problem has a corresponding optimization problem.",
+    "options": [
+      "a) Independent Set",
+      "b) Subset Sum",
+      "c) Prime",
+      "d) Graph Isomorphism"
+    ],
+    "correctAnswer": "a) Independent Set"
+  },
+  {
+    "id": "algo_2",
+    "questionText": "Suppose you have access to an oracle that is able to answer queries about instances of Hamilton Cycle. Furthermore, suppose the oracle answers \u201cyes\u201d for simple graph G =( V, E). Then an algorithm that determines the Hamilton Cycle for G,s o l e l yb ym a k i n gq u e r i e s ,n e e d sa tm o s t queries.",
+    "options": [
+      "a) |V |",
+      "b) |E|",
+      "c) |V |2",
+      "d) |E|2"
+    ],
+    "correctAnswer": "a) |V |"
+  },
+  {
+    "id": "algo_3",
+    "questionText": "For the reduction f from 3SAT to Clique provided in lecture. If instance C has 10 variables and 80 clauses, and each of the 20 literals appear in exactly 12 of the clauses, then f (C)h a s exactly edges.",
+    "options": [
+      "a) 27,120",
+      "b) 27,780",
+      "c) 28,440",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) 27,120"
+  },
+  {
+    "id": "algo_4",
+    "questionText": "All of the following decision problems are provably members of complexity class P,e x c e p tf o r",
+    "options": [
+      "a) Prime.",
+      "b) 2SAT.",
+      "c) 0-1 Knapsack.",
+      "d) Optimal Binary Search Tree."
+    ],
+    "correctAnswer": "a) Prime."
+  },
+  {
+    "id": "algo_5",
+    "questionText": "Consider a decision problem L where an instance of L is a nonnegative integer k, and a simple graph G =( V, E)f o rw h i c he a c hv e r t e xv 2 V is labeled with an instance of 3SAT.M o r e o v e r (G, k)i sap o s i t i v ei n s t a n c ef o rL i\u21b5 every k-clique of G has at least one vertex that is labeled with a satis\ufb01able instance of 3SAT. Then L is provably in the complexity class",
+    "options": [
+      "a) P.",
+      "b) NP.",
+      "c) co-NP.",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) P."
+  },
+  {
+    "id": "algo_6",
+    "questionText": "Consider a decision problem L where an instance of L is a set S of integers. Moreover S is a positive instance of L i\u21b5 every subset A of S has the property that X a2 A a 6= X a62A a; i.e. the sum of the members of A does not equal the sum of the members not in A.T h e n L is provably in the complexity class",
+    "options": [
+      "a) P.",
+      "b) NP.",
+      "c) co-NP.",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) P."
+  },
+  {
+    "id": "algo_7",
+    "questionText": "Consider a decision problem L where an instance of L is a simple graph G =( V, E). Moreover G is a positive instance of L i\u21b5 G has a vertex cover of size 62. Then L is provably in the complexity class",
+    "options": [
+      "a) P.",
+      "b) NP.",
+      "c) co-NP.",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) P."
+  },
+  {
+    "id": "algo_8",
+    "questionText": "If p is the permutation (4 3 6 5 2 1), then p5 equals",
+    "options": [
+      "a) (1 4 3 6 5 2).",
+      "b) (6 5 2 1 4 3).",
+      "c) (5 6 1 2 3 4).",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) (1 4 3 6 5 2)."
+  },
+  {
+    "id": "algo_9",
+    "questionText": "As e to fi n t e g e r sS whose members sum to 58 will have a subset that sums to 22 i\u21b5 the set S0 = S [{ J} can be partitioned into two sets A and B for which the sum of the members of A equal the sum of the members of B.I f t h i s i s t h e c a s e t h e n i n t e g e rJ must equal",
+    "options": [
+      "a) 7",
+      "b) 18",
+      "c) 21",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) 7"
+  },
+  {
+    "id": "algo_10",
+    "questionText": "Consider the following decision problem called String Partition , where a problem instance consists of a set S of n binary strings, each having length m.M o r e o v e r ,S is a positive instance i\u21b5 it can be partitioned into two sets, A and B,f o rw h i c ht h et o t a ln u m b e ro fz e r o so c c u r r i n g in the strings of A equals the total number of zeros occurring in the strings of B.T h e n String Partition is provably a member of",
+    "options": [
+      "a) P.",
+      "b) NP.",
+      "c) co-NP.",
+      "d) all of the above"
+    ],
+    "correctAnswer": "a) P."
+  },
+  {
+    "id": "algo_1",
+    "questionText": "Which of the following expressions surely supports the statement f (n)=\u2326 ( g(n))?",
+    "options": [
+      "a) f (n) \uf8ff 4g(n)f o ra l l n \u0000 1",
+      "b) f (n) \u0000 4g(n)f o ra l l n \u0000 136",
+      "c) lim",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) f (n) \uf8ff 4g(n)f o ra l l n \u0000 1"
+  },
+  {
+    "id": "algo_2",
+    "questionText": "Let k denote the degree of polynomial p(n), and l the degree of polynomial q(n). If p(n)= o(q(n)), then necessarily",
+    "options": [
+      "a) k = l.",
+      "b) k<l .",
+      "c) k>l .",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) k = l."
+  },
+  {
+    "id": "algo_3",
+    "questionText": "If f (n)=O ( g(n)) and f (n)=\u2326 ( g(n)), then it is always true that",
+    "options": [
+      "a) f (n)=o ( g(n)).",
+      "b) f (n)=\u21e5 ( g(n)).",
+      "c) f (n)= !(g(n)).",
+      "d) both a) and b) are always true."
+    ],
+    "correctAnswer": "a) f (n)=o ( g(n))."
+  },
+  {
+    "id": "algo_4",
+    "questionText": "Which of the following expressions best describes the growth of the sum 1+1 /2+1 /3+ \u00b7\u00b7\u00b7 +1/n?",
+    "options": [
+      "a) \u21e5(1/n)",
+      "b) \u21e5(1)",
+      "c) \u21e5(log n)",
+      "d) \u21e5(n log n)"
+    ],
+    "correctAnswer": "a) \u21e5(1/n)"
+  },
+  {
+    "id": "algo_5",
+    "questionText": "Given positive functions f (n)a n d g(n), if we know that lim n!1 (log f (n) \u0000 log g(n)) = 1, then we also know that",
+    "options": [
+      "a) f (n)=o ( g(n)).",
+      "b) f (n)=\u21e5 ( g(n)).",
+      "c) f (n)= !(g(n)).",
+      "d) more information is needed about f and g to reach a de\ufb01nite conclusion."
+    ],
+    "correctAnswer": "a) f (n)=o ( g(n))."
+  },
+  {
+    "id": "algo_6",
+    "questionText": "An algorithm takes as input an n \u21e5 n Boolean matrix A.I f t h e r u n n i n g t i m e o f t h e a l g o r i t h m is T (n)=O ( n log n)w h e n n is used as the input size parameter, then which of the following expressions describes the big-O growth of T (m), the running time of the algorithm when m = n2 is used as the size parameter?",
+    "options": [
+      "a) O(pm log m)",
+      "b) O(m2 log m)",
+      "c) O(m log m)",
+      "d) O(m2 log2 m)"
+    ],
+    "correctAnswer": "a) O(pm log m)"
+  },
+  {
+    "id": "algo_7",
+    "questionText": "Which of the following is not a desirable property of a hash function h(x)?",
+    "options": [
+      "a) It should be computable in O(1) time.",
+      "b) The range of h(x)s h o u l ds t a yw i t h i nt h ed e s i r e dh a s h - t a b l es i z e .",
+      "c) The range of h(x)s h o u l di n c l u d eaw i d er a n g eo fi n t e g e r s .",
+      "d) If x1,...,x n are the items to be hashed, then the numbers h(x1),...,h (xn)s h o u l db e"
+    ],
+    "correctAnswer": "a) It should be computable in O(1) time."
+  },
+  {
+    "id": "algo_8",
+    "questionText": "If a separate-chaining hash table has load factor \u0000 =5 ,t h e nt h ea v e r a g el e n g t ho fac h a i n equals",
+    "options": [
+      "a) 5.",
+      "b) log 5.",
+      "c) 5l o g5 .",
+      "d) log(log 5)."
+    ],
+    "correctAnswer": "a) 5."
+  },
+  {
+    "id": "algo_9",
+    "questionText": "Perfect hashing",
+    "options": [
+      "a) may be applied to static hash tables.",
+      "b) means there are no collisions when retrieving data from the hash table.",
+      "c) represents one of the most e\u0000cient ways of retrieving data.",
+      "d) all of the above"
+    ],
+    "correctAnswer": "a) may be applied to static hash tables."
+  },
+  {
+    "id": "algo_10",
+    "questionText": "The worst case running time T (n)f o ri n s e r t i n gn elements into an initially-empty heap is",
+    "options": [
+      "a) T (n)=O ( n2).",
+      "b) T (n)=O ( pn log n).",
+      "c) T (n)=O ( n).",
+      "d) T (n)=O ( n log n)."
+    ],
+    "correctAnswer": "a) T (n)=O ( n2)."
+  },
+  {
+    "id": "algo_11",
+    "questionText": "The worst case running time T (n)f o rp o p p i n ga ne l e m e n tf r o mab i n a r yh e a po fs i z en is",
+    "options": [
+      "a) T (n)=O ( 1 ) .",
+      "b) T (n)=O ( l o gn).",
+      "c) T (n)=O ( n).",
+      "d) T (n)=O ( n log n)."
+    ],
+    "correctAnswer": "a) T (n)=O ( 1 ) ."
+  },
+  {
+    "id": "algo_12",
+    "questionText": "Which of the following algorithms does not require a heap for its e\u0000cient implementation?",
+    "options": [
+      "a) Hu\u21b5man\u2019s algorithm",
+      "b) Dijkstra\u2019s algorithm",
+      "c) Kruskal\u2019s algorithm",
+      "d) Prim\u2019s algorithm"
+    ],
+    "correctAnswer": "a) Hu\u21b5man\u2019s algorithm"
+  },
+  {
+    "id": "algo_13",
+    "questionText": "Which of the following graph problems cannot be solved in time that is linear with respect to the sum of the number of vertices and edges in the graph (i.e. O( m + n)).",
+    "options": [
+      "a) determining if a simple graph is connected",
+      "b) determining if a simple graph is bipartite",
+      "c) determining a minimum spanning tree for a connected weighted graph",
+      "d) determining a topological sort of the vertices for a directed acyclic graph"
+    ],
+    "correctAnswer": "a) determining if a simple graph is connected"
+  },
+  {
+    "id": "algo_14",
+    "questionText": "Suppose directed graph G is weakly but not strongly connected, and path P = a, b, c, d provides aw e a k( b u tn o ts t r o n g )c o n n e c t i o nf r o ma to d within G.T h e n w e s u r e l y k n o w t h a t",
+    "options": [
+      "a) either ( a, b), or ( b, c), or ( c, d)i sa ne d g eo f G.",
+      "b) (a, b), and ( b, c), and ( c, d)a r ee d g e so fG.",
+      "c) either ( b, a), or ( c, b), or ( d, c)i sa ne d g eo f G.",
+      "d) (b, a), and ( c, b), and ( d, c)a r ee d g e so fG."
+    ],
+    "correctAnswer": "a) either ( a, b), or ( b, c), or ( c, d)i sa ne d g eo f G."
+  },
+  {
+    "id": "algo_15",
+    "questionText": "Let G =( V, E)b et h eu n d i r e c t e dg r a p hw h o s ee d g e sa r e{(a, b), (b, c), (c, d), (a, d)}.I f T is the depth-\ufb01rst spanning tree of G rooted at vertex a,i tf o l l o w st h a tT has branch(es).",
+    "options": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4"
+    ],
+    "correctAnswer": "a) 1"
+  },
+  {
+    "id": "algo_16",
+    "questionText": "The worst case running time T (n)f o ri n s e r t i n gn elements into an initially-empty binary search tree is",
+    "options": [
+      "a) T (n)=O ( n2).",
+      "b) T (n)=O ( pn log n).",
+      "c) T (n)=O ( n).",
+      "d) T (n)=O ( n log n)."
+    ],
+    "correctAnswer": "a) T (n)=O ( n2)."
+  },
+  {
+    "id": "algo_17",
+    "questionText": "Binary search tree T is said to be balanced when, for every node n in T ,",
+    "options": [
+      "a) n\u2019s left and right subtrees have equal height.",
+      "b) n\u2019s left and right subtrees have equal size.",
+      "c) n\u2019s left and right subtrees have heights that di\u21b5er by at most one.",
+      "d) n\u2019s left and right subtrees have sizes that di\u21b5er by at most one."
+    ],
+    "correctAnswer": "a) n\u2019s left and right subtrees have equal height."
+  },
+  {
+    "id": "algo_18",
+    "questionText": "If numbers from the set {1,...,n } are selected at random (without replacement) and inserted into an initially-empty binary search tree, then the big-O expression that best describes the average (taken over all possible resulting trees) height of the resulting tree is",
+    "options": [
+      "a) O(n).",
+      "b) O(log n).",
+      "c) O(pn).",
+      "d) O(n)."
+    ],
+    "correctAnswer": "a) O(n)."
+  },
+  {
+    "id": "algo_19",
+    "questionText": "Which of the following sorting tasks would not be appropriate for Counting Sort?",
+    "options": [
+      "a) sorting millions of products by their 15-digit serial numbers",
+      "b) sorting millions of employees by their ages",
+      "c) sorting each day of the calendar year by the high temperature (in Celsius rounded to the",
+      "d) sorting each vehicle registered in the state of California by the year it was manufactured"
+    ],
+    "correctAnswer": "a) sorting millions of products by their 15-digit serial numbers"
+  },
+  {
+    "id": "algo_20",
+    "questionText": "Which of the following best describes the worset-case running time of Insertion Sort when sorting n 32-bit unsigned integers?",
+    "options": [
+      "a) T (n)=\u21e5 ( pn)",
+      "b) T (n)=\u21e5 ( n)",
+      "c) T (n)=\u21e5 ( n log n)",
+      "d) T (n)=\u21e5 ( n2)"
+    ],
+    "correctAnswer": "a) T (n)=\u21e5 ( pn)"
+  },
+  {
+    "id": "algo_21",
+    "questionText": "Quicksort is guaranteed to run in time O( n log n)s ol o n ga st h ep i v o ti s",
+    "options": [
+      "a) randomly selected.",
+      "b) set to the median of the \ufb01rst, middle, and last array element.",
+      "c) set to the median of the array.",
+      "d) none of the above"
+    ],
+    "correctAnswer": "a) randomly selected."
+  },
+  {
+    "id": "algo_22",
+    "questionText": "When following Kruskal\u2019s algorithm, the greedy choice is to",
+    "options": [
+      "a) remove the edge of greatest cost from the graph so long as its removal does not disconnect",
+      "b) add the edge of least cost to the forest so long as its addition does not create a cycle.",
+      "c) add the vertex having least connection cost to the current tree.",
+      "d) remove the vertex having greatest connection cost from the tree."
+    ],
+    "correctAnswer": "a) remove the edge of greatest cost from the graph so long as its removal does not disconnect"
+  },
+  {
+    "id": "algo_23",
+    "questionText": "When following Hu\u21b5man\u2019s algorithm, the greedy choice is to",
+    "options": [
+      "a) select the two probabilities of least value for merging.",
+      "b) select the two probabilities of greatest value for merging.",
+      "c) add the codeword of shortest length to the code being constructed.",
+      "d) remove the codeword of greatest length from the code being constructed."
+    ],
+    "correctAnswer": "a) select the two probabilities of least value for merging."
+  },
+  {
+    "id": "algo_24",
+    "questionText": "Which of the following greedy algorithms has an implementation that most resembles that of Dijkstra\u2019s algorithm?",
+    "options": [
+      "a) Kruskal\u2019s algorithm",
+      "b) Prim\u2019s algorithm",
+      "c) Hu\u21b5man\u2019s algoirthm",
+      "d) Floyd-Warshall algorithm"
+    ],
+    "correctAnswer": "a) Kruskal\u2019s algorithm"
+  },
+  {
+    "id": "algo_25",
+    "questionText": "If T (n)s a t i s \ufb01 e sT (n)=2 T (n/3) + pn,t h e n",
+    "options": [
+      "a) T (n)=\u21e5 ( pn).",
+      "b) T (n)=\u21e5 ( n2).",
+      "c) T (n)=\u21e5 ( nlog3 2).",
+      "d) T (n)=\u21e5 ( nlog 3)."
+    ],
+    "correctAnswer": "a) T (n)=\u21e5 ( pn)."
+  },
+  {
+    "id": "algo_26",
+    "questionText": "Which of the following recurrences cannot be solved directly by the Master Theorem?",
+    "options": [
+      "a) T (n)=1 6 T (n/4) + n",
+      "b) T (n)= T (n/5) + 20",
+      "c) T (n)=3 T (n/4) + n log n",
+      "d) T (n)=2 T (n/2) + n log n"
+    ],
+    "correctAnswer": "a) T (n)=1 6 T (n/4) + n"
+  },
+  {
+    "id": "algo_27",
+    "questionText": "The running time of Strassen\u2019s algorithm is",
+    "options": [
+      "a) T (n)=\u21e5 ( n2).",
+      "b) T (n)=\u21e5 ( n2.5).",
+      "c) T (n)=\u21e5 ( nlog 7).",
+      "d) T (n)=\u21e5 ( n3)."
+    ],
+    "correctAnswer": "a) T (n)=\u21e5 ( n2)."
+  },
+  {
+    "id": "algo_28",
+    "questionText": "In dynamic-programming \u201cmemoization\u201d refers to",
+    "options": [
+      "a) storing the dynamic-programming recurrence in a static array so that it may be applied",
+      "b) storing solutions to smaller subproblems for future look up when solving larger subprob-",
+      "c) the ability of a dynamic-programming algorithm to remember the current location in the",
+      "d) the ability to remember dynamic-programming recurrences for a comprehensive exam."
+    ],
+    "correctAnswer": "a) storing the dynamic-programming recurrence in a static array so that it may be applied"
+  },
+  {
+    "id": "algo_29",
+    "questionText": "All of the following problems can be solved with a dynamic-programming algorithm that runs in worst-case polynomial time, except for",
+    "options": [
+      "a) Matrix Chain Multiplication.",
+      "b) Optimal Binary Search Tree",
+      "c) Edit Distance Between Words",
+      "d) 0-1 Knapsack"
+    ],
+    "correctAnswer": "a) Matrix Chain Multiplication."
+  },
+  {
+    "id": "algo_30",
+    "questionText": "The Floyd-Warshall dynamic-programming algorithm de\ufb01nes the matrix of numbers dk ij ,w h e r e i and j are graph vertices satisfying 1 \uf8ff i, j \uf8ff n,a n d k 2{ 0, 1,...,n }.M o r e o v e r ,dk ij represents",
+    "options": [
+      "a) the distance from i to j when restricted to paths that traverse at most k edges.",
+      "b) the distance from i to j when restricted to paths that traverse at least k edges.",
+      "c) the distance from i to j when restricted to paths whose intermediate vertices must lie",
+      "d) the distance from i to j when restricted to paths whose intermediate vertices must lie"
+    ],
+    "correctAnswer": "a) the distance from i to j when restricted to paths that traverse at most k edges."
+  },
+  {
+    "id": "algo_31",
+    "questionText": "The problem of determining if a bipartite graph has a perfect matching is most naturally reduced to the problem of",
+    "options": [
+      "a) \ufb01nding a Hamilton cycle in a simple graph.",
+      "b) \ufb01nding a vertex cover in a simple graph.",
+      "c) \ufb01nding the maximum \ufb02ow in a directed network.",
+      "d) \ufb01nding the longest path in a directed network."
+    ],
+    "correctAnswer": "a) \ufb01nding a Hamilton cycle in a simple graph."
+  },
+  {
+    "id": "algo_32",
+    "questionText": "The problem of determining the maximum \ufb02ow in a directed network is most naturally reduced to the problem of",
+    "options": [
+      "a) determining if a 0-1 Knapsack has a pro\ufb01t that exceeds some threshold.",
+      "b) \ufb01nding the longest path in a directed network.",
+      "c) determining if there is a path from one vertex to another in a graph.",
+      "d) \ufb01nding the longest path in an acyclic directed network."
+    ],
+    "correctAnswer": "a) determining if a 0-1 Knapsack has a pro\ufb01t that exceeds some threshold."
+  },
+  {
+    "id": "algo_33",
+    "questionText": "Professor Jones has just proved that there is no polynomial-time algorithm for solving the 0-1 Knapsack optimization problem. Because of this we also know there is no polynomial-time algorithm for solving each of the following problems, except for",
+    "options": [
+      "a) determining if a Boolean formula has a satisfying assignment.",
+      "b) determining if a graph has a Hamilton cycle.",
+      "c) determining if a set of integers has a subset that sums to some value t.",
+      "d) determining the longest path in a directed acyclic graph."
+    ],
+    "correctAnswer": "a) determining if a Boolean formula has a satisfying assignment."
+  },
+  {
+    "id": "algo_34",
+    "questionText": "The Subset Sum decision problem is most closely associated with",
+    "options": [
+      "a) the Set Partition decision problem.",
+      "b) the 3SAT decision problem.",
+      "c) the Hamilton Cycle decision problem.",
+      "d) the Vertex Cover decision problem."
+    ],
+    "correctAnswer": "a) the Set Partition decision problem."
+  },
+  {
+    "id": "algo_1",
+    "questionText": "b",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_2",
+    "questionText": "b",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_3",
+    "questionText": "b",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_4",
+    "questionText": "c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_5",
+    "questionText": "b",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_6",
+    "questionText": "a",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_7",
+    "questionText": "b",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_8",
+    "questionText": "a",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_9",
+    "questionText": "d",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_10",
+    "questionText": "d",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_11",
+    "questionText": "b",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_12",
+    "questionText": "c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_13",
+    "questionText": "c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_14",
+    "questionText": "c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_15",
+    "questionText": "a",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_16",
+    "questionText": "d",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_17",
+    "questionText": "c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_18",
+    "questionText": "b",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_19",
+    "questionText": "a",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_20",
+    "questionText": "d",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_21",
+    "questionText": "c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_22",
+    "questionText": "b",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_23",
+    "questionText": "a",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_24",
+    "questionText": "b",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_25",
+    "questionText": "c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_26",
+    "questionText": "d",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_27",
+    "questionText": "c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_28",
+    "questionText": "b",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_29",
+    "questionText": "d",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_30",
+    "questionText": "c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_31",
+    "questionText": "c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_32",
+    "questionText": "c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_33",
+    "questionText": "d",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_34",
+    "questionText": "a Algo:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_1",
+    "questionText": "Given the set of continuous intervals [5,8], [19,22],[3,15], [20,26], [27,31], [4,30] [10,18], [21, 31], [21, 29], [16, 21]. The maximum number ofpairwise non overlapping intervals a.5 b.6 c.3 d.4 https://www.geeksforgeeks.org/maximal-disjoint-intervals/",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_2",
+    "questionText": "Suppose each node of a perfect binary tree islabeled with its respective height in the tree, where the tree root is labeled with h. Then,assuming the tree has n nodes, the sum of all the height labels equals a.Theta(log(n)) b.Theta(n2)) c.Theta(n)) d.Theta(nlog(n))",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_3",
+    "questionText": "Which cannot be solved using Masters theorem:",
+    "options": [
+      "a)T(n) = 18T(n/4) + root(n)",
+      "b)T(n) = 5T(n/5) + n log^3 n",
+      "c)T(n) = 10T(n/15) + n log^2 n",
+      "d)T(n) = 3T(n/3) + 20n"
+    ],
+    "correctAnswer": "a)T(n) = 18T(n/4) + root(n)"
+  },
+  {
+    "id": "algo_4",
+    "questionText": "When using the disjoint set data structure i.eM trees to achieve a log-linear worst case running time for the unit task scheduling (uts) algorithm, the algorithm begins with a number of trees equal to: a.The maximum deadline of all the input tasks. b.The number of different task deadlines. c.The number of input tasks. d.The number of input tasks that will be scheduled.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_5",
+    "questionText": "Suppose Dijkstra's algorithm is run on a weightedgraph G=(V.E), where each weight is positive, and vertex s is the source vertex. Trueor False? If vertex u is added to the Dijkstra distance tree before vertex v is added, then : d(s, u) < d(s, v). a. True b. False (recommended)",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_6",
+    "questionText": "Given the recurrence : T(n) = 2T(floor(sqrt n))+ 1 a.T(n) = Theta(log2n) b.T(n) = Theta(log(logn)) c.T(n) = Theta(logn) d.T(n) = Theta(sqrt(n)) Link: https://www.geeksforgeeks.org/algorithms-gq/analysis-of-algorithms-recurrences-gq/ ASE:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "algo_7",
+    "questionText": "The OSI layer model is rarely used in the internet",
+    "options": [
+      "a)True",
+      "b)False"
+    ],
+    "correctAnswer": "a)True"
+  },
+  {
+    "id": "algo_8",
+    "questionText": "Fiber optic cable performance is not affected byelectromagnetic noise",
+    "options": [
+      "c)True",
+      "d)False"
+    ],
+    "correctAnswer": "c)True"
+  }
+]

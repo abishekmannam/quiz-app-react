@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg-gradient-start: #0f172a;
+  --bg-gradient-end: #1e1b4b;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  
+  --card-bg: rgba(255, 255, 255, 0.03);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --card-hover: rgba(255, 255, 255, 0.06);
+  --card-active: rgba(255, 255, 255, 0.1);
+  
+  --primary-accent: #6366f1;
+  --primary-accent-hover: #4f46e5;
+  
+  --success: #22c55e;
+  --danger: #ef4444;
+  
+  --font-main: 'Outfit', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+  color: var(--text-primary);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+/* Typography */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(to right, #60a5fa, #c084fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+
+p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Layout Utilities */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Glassmorphism Card */
+.glass-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Buttons */
+.btn {
+  background: var(--card-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  font-family: var(--font-main);
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn:hover:not(:disabled) {
+  background: var(--card-hover);
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--primary-accent);
+  border: none;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  margin-top: 1rem;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--primary-accent-hover);
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+}
+
+/* Specific States */
+.btn.selected {
+  background: rgba(99, 102, 241, 0.2);
+  border-color: var(--primary-accent);
+}
+
+.btn.correct {
+  background: rgba(34, 197, 94, 0.2);
+  border-color: var(--success);
+}
+
+.btn.wrong {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: var(--danger);
+}
+
+/* Grids */
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 640px) {
+  .grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Progress Bar */
+.progress-container {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #60a5fa, #c084fc);
+  transition: width 0.3s ease;
+}
+
+/* Result Item */
+.result-item {
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--card-border);
+}
+.result-item:last-child {
+  border-bottom: none;
+}
+.result-q {
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+.result-ans {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
+.result-ans .wrong {
+  color: var(--danger);
+  background: rgba(239, 68, 68, 0.1);
+  padding: 0.5rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--danger);
+}
+.result-ans .correct {
+  color: var(--success);
+  background: rgba(34, 197, 94, 0.1);
+  padding: 0.5rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--success);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-slide-up {
+  animation: fadeIn 0.4s ease-out forwards;
+}

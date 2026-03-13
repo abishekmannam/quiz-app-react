@@ -1,0 +1,1829 @@
+[
+  {
+    "id": "ase_2",
+    "questionText": "An erroneous system states that can lead to system behavior that is \u2026\u2026\u2026\u2026.",
+    "options": [
+      "System errors",
+      "System faults",
+      "System failure"
+    ],
+    "correctAnswer": "System faults"
+  },
+  {
+    "id": "ase_3",
+    "questionText": "(T/\u200bF\u200b) Fault avoidance is the application of verification and validation techniques used to discover and remove faults in a system before it is deployed.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_4",
+    "questionText": "(\u200bT\u200b/F) Reliability measures are system attributes that define the number of failures that are acceptable during normal use of the system.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_5",
+    "questionText": "\u2026\u2026 probability that the system will fail when a serving request is made.",
+    "options": [
+      "POFOD",
+      "ROCOF",
+      "AVAIL"
+    ],
+    "correctAnswer": "POFOD"
+  },
+  {
+    "id": "ase_6",
+    "questionText": "Among the benefits of creating reliability specification is",
+    "options": [
+      "It reduces the cost the system",
+      "It can be created after the system is implemented",
+      "It provides a basis for assessing when to stop testing a system"
+    ],
+    "correctAnswer": "It provides a basis for assessing when to stop testing a system"
+  },
+  {
+    "id": "ase_7",
+    "questionText": "Specialized system that is associated with some other control system, which can take emergency action if a failure occurs.",
+    "options": [
+      "Protection system",
+      "N-version system",
+      "Self-monitoring system"
+    ],
+    "correctAnswer": "Protection system"
+  },
+  {
+    "id": "ase_8",
+    "questionText": "The fault-tolerant solutions studied in class have as a core concept",
+    "options": [
+      "Formalism",
+      "Non-determinism",
+      "Redundancy",
+      "None of the above",
+      "All of the above"
+    ],
+    "correctAnswer": "Non-determinism"
+  },
+  {
+    "id": "ase_9",
+    "questionText": "\u2026\u2026\u2026\u2026\u2026\u2026. is true of a self-monitoring system?",
+    "options": [
+      "Only a and b",
+      "Multiple architectural channels are employed",
+      "It should monitor its own operations and take action if inconsistencies are",
+      "Extensive use should be made of diversity of hardware failure will not",
+      "All of the above"
+    ],
+    "correctAnswer": "It should monitor its own operations and take action if inconsistencies are"
+  },
+  {
+    "id": "ase_10",
+    "questionText": "(\u200bT\u200b/F) An example of validity check is range checking to determine if an input is acceptable.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_11",
+    "questionText": "A reasonable exception handling strategy is to",
+    "options": [
+      "Try to fix the problem in the handler",
+      "Push the problem to the calling unit",
+      "Pass the problem to a run-time support system",
+      "Only b and c",
+      "All of the above"
+    ],
+    "correctAnswer": "Push the problem to the calling unit"
+  },
+  {
+    "id": "ase_12",
+    "questionText": "(\u200bT\u200b/F) In the C programming language, assuming int nums[100] is a valid declaration \u2026 will result from this statement: nums[105];  (it is possible to address a memory location outside of the range allowed for in an array declaration.)",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_13",
+    "questionText": "To recover from most post-delivery software faults is usually enough to",
+    "options": [
+      "Put the system in a safe state if an operational anomaly is detected",
+      "Throw exceptions and generate detailed error messages",
+      "Simply restart the program at a known stable point"
+    ],
+    "correctAnswer": "Throw exceptions and generate detailed error messages"
+  },
+  {
+    "id": "ase_14",
+    "questionText": "(\u200bT\u200b/F) The idea behind checkpoint and restart systems is similar to the Memento designing pattern.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_15",
+    "questionText": "Programming for reliability includes",
+    "options": [
+      "Naming all real-world constants in programs",
+      "All of the above",
+      "Using lots of gotos",
+      "Only b and c",
+      "Checking array bounds"
+    ],
+    "correctAnswer": "Using lots of gotos"
+  },
+  {
+    "id": "ase_16",
+    "questionText": "(T/\u200bF\u200b) Reliability testing is essentially the same as normal software testing.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_17",
+    "questionText": "An \u201coperational profile\u201d defines",
+    "options": [
+      "A set of classes of expected inputs to a software system",
+      "Only a and b",
+      "The expected frequency of input classes",
+      "The time spent in individual operational modules",
+      "All of the above"
+    ],
+    "correctAnswer": "A set of classes of expected inputs to a software system"
+  },
+  {
+    "id": "ase_18",
+    "questionText": "\u200bBy far, the largest source of threats to software security results from vulnerability.",
+    "options": [
+      "Networking hardware",
+      "Application software \u200b(This might be the answer)",
+      "Incaution use of software",
+      "None of the above",
+      "Networking software"
+    ],
+    "correctAnswer": "Networking hardware"
+  },
+  {
+    "id": "ase_19",
+    "questionText": "Something of value which has to be protected.",
+    "options": [
+      "Asset\u200b b) attack c) threat d) vulnerability"
+    ],
+    "correctAnswer": "Asset\u200b b) attack c) threat d) vulnerability"
+  },
+  {
+    "id": "ase_20",
+    "questionText": "Circumstances that have potential to cause loss or harm.",
+    "options": [
+      "Asset b) attack \u200bc) threat\u200b d) vulnerability"
+    ],
+    "correctAnswer": "Asset b) attack \u200bc) threat\u200b d) vulnerability"
+  },
+  {
+    "id": "ase_21",
+    "questionText": "A weakness in a computer-based system that may be exploited to cause loss or harm.",
+    "options": [
+      "Asset b) attack c) threat \u200bd) vulnerability"
+    ],
+    "correctAnswer": "Asset b) attack c) threat \u200bd) vulnerability"
+  },
+  {
+    "id": "ase_22",
+    "questionText": "A threat that makes part of the system unavailable. a.a) Interception c) modification b.b) Interruption\u200b d) fabrication",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_23",
+    "questionText": "A threat that allows as attacker to gain access to an asset",
+    "options": [
+      "Interception\u200b c) modification",
+      "Interruption d) fabrication"
+    ],
+    "correctAnswer": "Interception\u200b c) modification"
+  },
+  {
+    "id": "ase_24",
+    "questionText": "(\u200bT/\u200bF) security requirements are classified into risk avoidance, risk detection and risk mitigation.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_25",
+    "questionText": "(\u200bT\u200b/F) A \u201cmisuse case\u201d describes how an unauthorized user of a system might attack it.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_26",
+    "questionText": "(\u200bT\u200b/F) A key to providing system security and reliability is creating an appropriate architecture.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_27",
+    "questionText": "Software design should",
+    "options": [
+      "Base decision on explicit security policy",
+      "Only a and b",
+      "Specify the format of all system inputs",
+      "Avoid a single point of failure",
+      "All of the above"
+    ],
+    "correctAnswer": "Base decision on explicit security policy"
+  },
+  {
+    "id": "ase_28",
+    "questionText": "(\u200bT\u200b/F) An issue with security testing is that security requirements are usually written as negatives and it is very difficult to prove something won\u2019t happen.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_29",
+    "questionText": "(T/F) \u200bDependable programming guidelines for security issues are essentially the same as \u2026\u2026 for reliability.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "ase_30",
+    "questionText": "\u200bThe website of security issues I showed you in the last couple of classes was",
+    "options": [
+      "Common Weakness Enumeration",
+      "Common Vulnerability Enumeration",
+      "Microsoft.com",
+      "Internet vulnerability database"
+    ],
+    "correctAnswer": "Internet vulnerability database"
+  },
+  {
+    "id": "ase_31",
+    "questionText": "The unified process model of software development is",
+    "options": [
+      "A useful approach when a customer cannot define requirements clearly",
+      "A risky model that rarely produces a meaningful product",
+      "A reasonable approach when requirements are well defined",
+      "The best approach to use for projects with large development teams"
+    ],
+    "correctAnswer": "A reasonable approach when requirements are well defined"
+  },
+  {
+    "id": "ase_32",
+    "questionText": "A characteristic of \u201cproject\u201d is that a project",
+    "options": [
+      "Is unique",
+      "Project criteria",
+      "Has customer specified",
+      "All of the above",
+      "Consumes resources"
+    ],
+    "correctAnswer": "Is unique"
+  },
+  {
+    "id": "ase_33",
+    "questionText": "Software teams are formed based on which of the following factors?",
+    "options": [
+      "The language to be used in coding",
+      "The estimated size of the completed project",
+      "The difficulty of the problem to be solved",
+      "Only a and c",
+      "All of the above"
+    ],
+    "correctAnswer": "The estimated size of the completed project"
+  },
+  {
+    "id": "ase_34",
+    "questionText": "A product scope statement defines",
+    "options": [
+      "The function and performance of the product",
+      "Context of the products as determined how it fits in existing systems",
+      "The information objectives as determined by customer visible data or",
+      "Only a and c",
+      "All of the above"
+    ],
+    "correctAnswer": "Context of the products as determined how it fits in existing systems"
+  },
+  {
+    "id": "ase_35",
+    "questionText": "Which is the correct flow of activities (left to right) (drew on board)?",
+    "options": [
+      "Application domain -> analysis model -> design model -> Solution",
+      "None of the above",
+      "Solution domain -> design model -> analysis model -> Application",
+      "Application domain -> design model -> analysis model -> solution"
+    ],
+    "correctAnswer": "Application domain -> design model -> analysis model -> solution"
+  },
+  {
+    "id": "ase_36",
+    "questionText": "(\u200bT\u200b/F) V process model is essentially the \u201cwaterfall\u201d process model with testing tied to each major activity.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_37",
+    "questionText": "Among the factors that help projects succeed is",
+    "options": [
+      "User involvement",
+      "\u200b All of the above",
+      "None of the above",
+      "Firm basic requirements",
+      "An experienced project manager"
+    ],
+    "correctAnswer": "User involvement"
+  },
+  {
+    "id": "ase_38",
+    "questionText": "Which diagram is not part of UML?",
+    "options": [
+      "All of the above are UML diagrams",
+      "Sequence",
+      "Class",
+      "DFD",
+      "Use case"
+    ],
+    "correctAnswer": "Use case"
+  },
+  {
+    "id": "ase_39",
+    "questionText": "(\u200bT\u200b/F) \u201cCall and return\u201d architecture is based upon functions calling each other.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_40",
+    "questionText": "A sequence diagram",
+    "options": [
+      "Depicts functions that transform data flow",
+      "Depicts relationship between data objects",
+      "Indicates user-system interaction in a temporal relationship",
+      "Indicates how data are transformed by the system"
+    ],
+    "correctAnswer": "Depicts relationship between data objects"
+  },
+  {
+    "id": "ase_41",
+    "questionText": "(\u200bT\u200b/F) \u201cStructure analysis\u201d views data and the processes that transforms it as separate.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_42",
+    "questionText": "The phases of the project management lifecycle that corresponds to UP\u2019s construction and transition phases are",
+    "options": [
+      "Execution only",
+      "Planning and execution",
+      "Initiating and planning",
+      "\u200bExecution and closing",
+      "None of the above"
+    ],
+    "correctAnswer": "Initiating and planning"
+  },
+  {
+    "id": "ase_43",
+    "questionText": "(\u200bT\u200b/F) In a UML sequence diagram, the arrows labeled by operations points to the class that owns the operation. \u200b<verify>",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_44",
+    "questionText": "A software project products software configuration consists of",
+    "options": [
+      "Programs",
+      "Documents",
+      "All of the above",
+      "Data"
+    ],
+    "correctAnswer": "Programs"
+  },
+  {
+    "id": "ase_45",
+    "questionText": "(\u200bT\u200b/F) A \u201cbaseline\u201d is a specification or product that has been formally reviewed and agreed upon, that thereafter serves as the basis for further development.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_46",
+    "questionText": "(\u200bT\u200b/F) A software configuration management repository is the set of mechanism and data structures that allow a software team to manage change in an effective manner.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_47",
+    "questionText": "Among a software configuration management repository\u2019s features are",
+    "options": [
+      "Dependency tracking",
+      "Requirement tracking",
+      "Versioning or version control",
+      "All of the above",
+      "Configuration management"
+    ],
+    "correctAnswer": "Versioning or version control"
+  },
+  {
+    "id": "ase_48",
+    "questionText": "(T/\u200bF\u200b) Change control refers to the process of modifying elements before they are \u201cbaseline\u201d.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_49",
+    "questionText": "Among the reasons to collect data on software products and processes is to",
+    "options": [
+      "To improve processes and products by identifying root causes and",
+      "Determine project status with respect to plans",
+      "Establish baselines for comparisons in the future",
+      "All of the above",
+      "Gain understanding of processes and products"
+    ],
+    "correctAnswer": "Gain understanding of processes and products"
+  },
+  {
+    "id": "ase_50",
+    "questionText": "Which is not used to calculate FPs?",
+    "options": [
+      "Number of external inputs",
+      "Number of external outputs",
+      "Number of potential use cases",
+      "Number of internal logic files",
+      "They are all used to calculate FPs"
+    ],
+    "correctAnswer": "Number of external inputs"
+  },
+  {
+    "id": "ase_51",
+    "questionText": "(\u200bT\u200b/F) Function points are derived using an empirical relationship based on countable (direct) measures of software\u2019s information domain and assessments of software complexity.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_52",
+    "questionText": "(\u200bT\u200b/F) Function point values are conditioned by weighting factors multipliers for \u201csimple\u201d, \u201caverage\u201d and \u201ccomplex\u201d difficulty.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_53",
+    "questionText": "Among the value adjustment factors for FPs is",
+    "options": [
+      "None of the above",
+      "Does the system require backup and recovery features?",
+      "Are there multiple users at any point in time?",
+      "Are external data base used?"
+    ],
+    "correctAnswer": "Does the system require backup and recovery features?"
+  },
+  {
+    "id": "ase_54",
+    "questionText": "In OO metrics, the degree to which all operations working together to achieve a single, well-defined purpose.",
+    "options": [
+      "Similarity",
+      "Completeness",
+      "Cohesion",
+      "None of the above",
+      "Coupling"
+    ],
+    "correctAnswer": "Similarity"
+  },
+  {
+    "id": "ase_55",
+    "questionText": "(\u200bT\u200b/F) Physical source lines are the length of code as it appears on paper or screen.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_56",
+    "questionText": "(T/\u200bF\u200b) Logical source lines are the length of code as it appears on paper or screen.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_57",
+    "questionText": "The goal of software project planning is to",
+    "options": [
+      "Control, track and monitor a complex technical project.",
+      "Systematically test software components.",
+      "Gather requirement, design software modules and implement code."
+    ],
+    "correctAnswer": "Gather requirement, design software modules and implement code."
+  },
+  {
+    "id": "ase_58",
+    "questionText": "(\u200bT\u200b/F) The software scope describes, in part, the function and features that are to be delivered to end users.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_59",
+    "questionText": "Among the ways to define software scope is",
+    "options": [
+      "To create a Software architecture before coding commences",
+      "Determine project status with respect to plans",
+      "Estimate the number of person-months to complete the project",
+      "All of the above",
+      "To develop a set of use cases created by end users"
+    ],
+    "correctAnswer": "To create a Software architecture before coding commences"
+  },
+  {
+    "id": "ase_60",
+    "questionText": "How may person-months will this project take?",
+    "options": [
+      "44",
+      "3.75",
+      "37.5",
+      "None of the above"
+    ],
+    "correctAnswer": "44"
+  },
+  {
+    "id": "ase_61",
+    "questionText": "What is the estimated cost of this project?",
+    "options": [
+      "Cannot be determined from the information given",
+      "$1,150,000",
+      "$412,500",
+      "$440,000",
+      "None of the above"
+    ],
+    "correctAnswer": "$440,000"
+  },
+  {
+    "id": "ase_62",
+    "questionText": "(\u200bT\u200b/F) The cost per LOC on this project is $15.19 Use this information for the next 3 Questions: Assume an average productivity of 6.0FP per person-month, labor rate of $1,200 per FP and a count-total of 320. The value adjustment factor (\u03a3 Fi) is 30. FP= count-total * (0.65 + 0.01 * (\u03a3 Fi)).",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_63",
+    "questionText": "What is FP for this project?",
+    "options": [
+      "252",
+      "304",
+      "None of the above",
+      "220",
+      "357"
+    ],
+    "correctAnswer": "220"
+  },
+  {
+    "id": "ase_64",
+    "questionText": "How many person months will the above project last? Rounded up Person-months = FP/ avg productivity",
+    "options": [
+      "51",
+      "49",
+      "20",
+      "None of the above",
+      "32"
+    ],
+    "correctAnswer": "49"
+  },
+  {
+    "id": "ase_65",
+    "questionText": "What is total cost of the project? Total cost = avg productivity * labour rate per FP * person-months",
+    "options": [
+      "$242,000",
+      "$392,700",
+      "$149,600",
+      "None of the above",
+      "$277,200"
+    ],
+    "correctAnswer": "$242,000"
+  },
+  {
+    "id": "ase_66",
+    "questionText": "(T/\u200bF\u200b) Using function decomposition techniques (like counting processes in DFD) for estimation purposes leads to highly accurate and detailed estimates.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_67",
+    "questionText": "(\u200bT\u200b/F) A critical path is a chain of tasks that determine the duration of a project.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_68",
+    "questionText": "What COCOMO II model is used during the earliest stages of software engineering?",
+    "options": [
+      "Post architecture model",
+      "Return model",
+      "None of the above",
+      "Application composition model",
+      "Early design stage model"
+    ],
+    "correctAnswer": "Application composition model"
+  },
+  {
+    "id": "ase_69",
+    "questionText": "Project risk components are categorized by",
+    "options": [
+      "Performance, cost, support and schedule",
+      "Mitigation, monitoring and management"
+    ],
+    "correctAnswer": "Performance, cost, support and schedule"
+  },
+  {
+    "id": "ase_70",
+    "questionText": "Risk exposure is computed as",
+    "options": [
+      "The cost to the project if the risk should occur",
+      "The probability that a risk will occur",
+      "\u200bThe product of a and b"
+    ],
+    "correctAnswer": "The probability that a risk will occur"
+  },
+  {
+    "id": "ase_71",
+    "questionText": "Among reasons project are delivered late or run late is",
+    "options": [
+      "All of the above",
+      "An unrealistic deadline established by someone outside the software",
+      "Changing customer requirements that are not reflected in schedule",
+      "An honest underestimate of the amount of the effort and/or the number of"
+    ],
+    "correctAnswer": "An unrealistic deadline established by someone outside the software"
+  },
+  {
+    "id": "ase_72",
+    "questionText": "(T/\u200bF\u200b) The most reasonable order for the project scheduling process is estimate activity resources, allocate people, identify activity, find activity dependencies.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_73",
+    "questionText": "Project activities (tasks)",
+    "options": [
+      "Need an estimation of effort in person-day or person-months",
+      "All of the above",
+      "Have a duration in days, weeks or months of calendar time",
+      "Are the basic planning elements"
+    ],
+    "correctAnswer": "Are the basic planning elements"
+  },
+  {
+    "id": "ase_74",
+    "questionText": "(\u200bT\u200b/F) A WBS is a hierarchical description of all the activities scheduled for a project.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_75",
+    "questionText": "(\u200bT\u200b/F) A task network is a graphical representation of task flow for a project that is used to help set up task sequences and dependencies.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_76",
+    "questionText": "Which is not a Scheduling Principle?",
+    "options": [
+      "Risk analysis",
+      "Determining task interdependency",
+      "Compartmentalization"
+    ],
+    "correctAnswer": "Compartmentalization"
+  },
+  {
+    "id": "ase_77",
+    "questionText": "(\u200bT\u200b/F) The reason adding people to a late project makes it later is because the new person drains time from other project participants to get him/her up to speed.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_78",
+    "questionText": "In EVA, budgeted cost of work performed (BCWP) is value of",
+    "options": [
+      "The sum of the effort actually expanded on work tasks that have been",
+      "All work tasks that should have been completed by a point on the project",
+      "None of the above",
+      "\u200bAll work tasks that have actually been completed by a point on the project"
+    ],
+    "correctAnswer": "All work tasks that should have been completed by a point on the project"
+  },
+  {
+    "id": "ase_79",
+    "questionText": "(T/\u200bF\u200b) Program Evaluation and Review Technique (PERT) and critical path method (CPM) do completely different tasks in software project scheduling.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_80",
+    "questionText": "A recommended distribution of efforts across the software process in front end activities,construction activities and testing activity is",
+    "options": [
+      "20-60-20 %",
+      "40-20-40 %",
+      "20-40-40 %"
+    ],
+    "correctAnswer": "40-20-40 %"
+  },
+  {
+    "id": "ase_81",
+    "questionText": "According to Boehm\u2019s model of cost changes, the relative cost of correcting an error (relative to the requirements phases) during field operations is ----------- times more costly.",
+    "options": [
+      "10 b) 200 c) 400 \u200bd) 1000\u200b e) 2000"
+    ],
+    "correctAnswer": "10 b) 200 c) 400 \u200bd) 1000\u200b e) 2000"
+  },
+  {
+    "id": "ase_82",
+    "questionText": "(T/\u200bF\u200b) According to Lehman, s-type program are those that model real-world process and become part of the real-world by their use.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_83",
+    "questionText": "Adding new pieces of hardware to an existing system usually necessitates what type \u2026.. maintenance?",
+    "options": [
+      "Perfective b) Corrective \u200bc) Adaptive"
+    ],
+    "correctAnswer": "Perfective b) Corrective \u200bc) Adaptive"
+  },
+  {
+    "id": "ase_84",
+    "questionText": "Problem (bug) reports",
+    "options": [
+      "Only a and b",
+      "Should have only one bug per report",
+      "All of the above",
+      "Should be written",
+      "Are most helpful when they contain information on how to reproduce the"
+    ],
+    "correctAnswer": "Should be written"
+  },
+  {
+    "id": "ase_85",
+    "questionText": "Among the legal reasons to reverse engineer someone else's software is",
+    "options": [
+      "to achieve interoperability with proprietary software , Developing",
+      "all of the above",
+      "to evaluate software quality and robustness",
+      "only a and b",
+      "to learn the steps of an algorithm"
+    ],
+    "correctAnswer": "to achieve interoperability with proprietary software , Developing"
+  },
+  {
+    "id": "ase_86",
+    "questionText": "(\u200bT\u200b/F) The reverse engineering case that started the PC clone industry was IBM vs Phoenix.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_88",
+    "questionText": "(\u200bT\u200b/F) The most important goal of an obfuscation technique is that it should be maximally stealthy \u2013 this is, hidden from the reverse engineer\u2019s knowledge.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_89",
+    "questionText": "(\u200bT\u200b/F) An anti-reverse engineering technique is removing symbolic information from complied code.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_90",
+    "questionText": "(T/\u200bF\u200b) Control transformation as an obfuscation technique should alter program semantics (behavior).",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_91",
+    "questionText": "(\u200bT\u200b/F) A watermark in program or media file is a secret message that can be used to prove ownership of the program or media.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_92",
+    "questionText": "(\u200bT\u200b/F) Static program comprehension is based on analyzing source code structure.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_93",
+    "questionText": "(\u200bT\u200b/F) Program comprehension is what maintenance programmers spend most of their time doing.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_94",
+    "questionText": "Which is \u201cmental model\u201d relies on programmers grouping several statements\u2026\u2026\u2026\u2026\u2026 them understand what the code is doing?",
+    "options": [
+      "Beacons",
+      "Chunks",
+      "Test Structure"
+    ],
+    "correctAnswer": "Test Structure"
+  },
+  {
+    "id": "ase_95",
+    "questionText": "One key factor in scaling up program comprehension is",
+    "options": [
+      "\u200bThe use of parsing technologies for automatic code analysis",
+      "Application of Lehman\u2019s second law",
+      "Programmer practice at reading code"
+    ],
+    "correctAnswer": "\u200bThe use of parsing technologies for automatic code analysis"
+  },
+  {
+    "id": "ase_96",
+    "questionText": "(\u200bT\u200b/F) Basically Lehman\u2019s first law says that programs in a real world environment must change or become less useful in that environment.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_97",
+    "questionText": "(T/\u200bF\u200b) About 60% of the faults (bugs/mistakes) that are found in are found by rigorous testing of the code after implementation. (\u200bans: Found by inspections or reviews of requirement design, code prior to implementation\u200b)",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_98",
+    "questionText": "(\u200bT\u200b/F) Grace Hopper invented the \u201cbug\u201d to describe a program\u2026\u2026\u2026.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_99",
+    "questionText": "Which is not a recognized process model flow?",
+    "options": [
+      "Linear",
+      "Transformational",
+      "Evolutionary",
+      "Iterative"
+    ],
+    "correctAnswer": "Linear"
+  },
+  {
+    "id": "ase_100",
+    "questionText": "(T/\u200bF\u200b) Extreme Programming (XP) is a \u201cuse-case driven, architecture-centric, iterative and incremental\u201d software process closely aligned with the Unified modeling language.(ans : Unified Process) QUIZ 1, 2, 3, 4",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_1",
+    "questionText": "(T/\u200bF\u200b) of the \u201cfour P\u2019s\u201d of a project, process is the most important element of a successful project.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_2",
+    "questionText": "(\u200bT\u200b/F) Boundary classes are used to create a user interface to software.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_3",
+    "questionText": "(T/\u200bF\u200b) Regardless of the type of stakeholder (customer, manager, architect, developer) that all share the same set of concerns for a project.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_4",
+    "questionText": "(\u200bT\u200b/F) Formal, interpersonal procedures for team coordination and communication focus on quality assurance activities applied to software engineering work products.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_5",
+    "questionText": "DFD\u2019s are useful in representing which analysis model element?",
+    "options": [
+      "Scenario-based elements",
+      "Behavioral elements",
+      "Class-based elements"
+    ],
+    "correctAnswer": "Behavioral elements"
+  },
+  {
+    "id": "ase_6",
+    "questionText": "Which is not a process model umbrella activity? (ans - \u200bSoftware project tracking and control, Risk Management. Software Quality Assurance. Formal Technical Reviews. Software Configuration Management. Work product preparation and production. Reusability management, Measurement)",
+    "options": [
+      "Software project management",
+      "Software quality assurance",
+      "Reusability management",
+      "Use case modeling"
+    ],
+    "correctAnswer": "Software project management"
+  },
+  {
+    "id": "ase_7",
+    "questionText": "Which is not a process model umbrella activity?",
+    "options": [
+      "Software project management",
+      "Modeling and control",
+      "Reusability management",
+      "Software quality assurance",
+      "All of the above"
+    ],
+    "correctAnswer": "Software project management"
+  },
+  {
+    "id": "ase_8",
+    "questionText": "(\u200bT\u200b/F) IEEE standard 1058.1 defines the phases of project management.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_9",
+    "questionText": "Which of the following is a typical operation performed by a class?",
+    "options": [
+      "Operation that inquires about the state of an object",
+      "Operation that manipulate data in some way",
+      "\u200bAll of the above",
+      "Operations that monitor an object for the occurrence of controlling events.",
+      "Operation that performs a computation"
+    ],
+    "correctAnswer": "Operation that manipulate data in some way"
+  },
+  {
+    "id": "ase_10",
+    "questionText": "(T/\u200bF\u200b) In a UML class diagram aggregation is represented by a black diamond pointing to the aggregating class from the aggregated class.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_11",
+    "questionText": "(\u200bT\u200b/F) The \u201cBlob\u201d anti-pattern describes an OO structure in which one class contains almost all functional element of a program and all other classes are mere data holders.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_12",
+    "questionText": "(\u200bT\u200b/F) A functional requirement is anything you can write code to achieve, \u2026\u2026\u2026 \u200b<verify>",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_13",
+    "questionText": "A data-centered architecture is",
+    "options": [
+      "Requires careful management of data to avoid corruption",
+      "An older form of program architecture",
+      "Common in business application",
+      "\u200bAll of the above\u200b \u200b<verify>"
+    ],
+    "correctAnswer": "Common in business application"
+  },
+  {
+    "id": "ase_14",
+    "questionText": "What is not visible in class diagram?",
+    "options": [
+      "Class attributes",
+      "Class operations",
+      "Relationship between classes",
+      "They are all visible",
+      "Class behavior"
+    ],
+    "correctAnswer": "Relationship between classes"
+  },
+  {
+    "id": "ase_15",
+    "questionText": "(\u200bT\u200b/F) Analysis classes are determined by underlining each noun or noun phrase and entering it into a simple table. .",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_16",
+    "questionText": "(T/\u200bF\u200b) All use case actors must be human",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_17",
+    "questionText": "(\u200bT/\u200bF\u200b) A user story represent a feature or function of software which is used by an actor. https://www.visual-paradigm.com/guide/agile-software-development/user-story-v s-use-case/ https://www.mountaingoatsoftware.com/agile/user-stories",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_18",
+    "questionText": "(T/\u200bF\u200b) Entity classes are derived from projects application domain. \u200b(verify) - True http://www.cs.sjsu.edu/~pearce/modules/lectures/ooa/analysis/IdentifyingDomain Classes.htm",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_19",
+    "questionText": "(T/\u200bF\u200b) In a local version control system, it is possible to share files in the repository.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_20",
+    "questionText": "In a centralized version control system",
+    "options": [
+      "Only one client at a time can check out files from the server",
+      "All of the above",
+      "Files can\u2019t be shared",
+      "A single server contains all the versioned files"
+    ],
+    "correctAnswer": "A single server contains all the versioned files"
+  },
+  {
+    "id": "ase_21",
+    "questionText": "In Git _________ means diverging from the main line of development and starting a new line of development. a.a) Committing b.b) \u200bBranching c.c) Checkout d.d) Staging e.e) None of the above",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_22",
+    "questionText": "(\u200bT\u200b/F) A good quality for a metric to have is to be simple and computable. (or consistent and objective)",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_23",
+    "questionText": "A(n) __________ is a quantitative measure of the degree to which a system, component, or process possesses a given attributes.",
+    "options": [
+      "Measure b) staging",
+      "\u200bMetric\u200b d) none of the above"
+    ],
+    "correctAnswer": "Measure b) staging"
+  },
+  {
+    "id": "ase_24",
+    "questionText": "In OO metrics, an indirect implication about the degree to which the abstraction (class) or design component can be resulted.",
+    "options": [
+      "Similarity",
+      "\u200bCompleteness",
+      "Cohesion",
+      "None of the above",
+      "Coupling"
+    ],
+    "correctAnswer": "Similarity"
+  },
+  {
+    "id": "ase_25",
+    "questionText": "One of the most important factors in estimating cost and schedule for a project is",
+    "options": [
+      "Computing expected cost",
+      "Access to good historical metrics",
+      "\u200b Only a and c",
+      "All of the above",
+      "The experience level of the estimator"
+    ],
+    "correctAnswer": "The experience level of the estimator"
+  },
+  {
+    "id": "ase_26",
+    "questionText": "\u200b(T\u200b/F) One way to estimate the size of software project is to rely on \u201cexpert judgment\u201d",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_27",
+    "questionText": "(\u200bT\u200b/F) Process measurement is done indirectly by measuring the outcomes of the process itself.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_28",
+    "questionText": "\u200bOne of the goal of tracking process metrics is",
+    "options": [
+      "Both a and b",
+      "To determine organizational productivity",
+      "To identify problem employs and retrain them"
+    ],
+    "correctAnswer": "To determine organizational productivity"
+  },
+  {
+    "id": "ase_29",
+    "questionText": "(\u200bT\u200b/F) A typical project metric counts efforts per software engineering task.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_30",
+    "questionText": "Project metrics should",
+    "options": [
+      "Only a and b",
+      "Measure the resources consumed in the project",
+      "Determine the effectiveness of the deliverables or work products",
+      "Count the deliverable or work products created in the project",
+      "All of the above"
+    ],
+    "correctAnswer": "Measure the resources consumed in the project"
+  },
+  {
+    "id": "ase_31",
+    "questionText": "A useful project metrics for OO system is",
+    "options": [
+      "Only a and b",
+      "The no. of scenario scripts (use cases)",
+      "The no. of support classes per analysis class",
+      "FP per person months",
+      "All of the above"
+    ],
+    "correctAnswer": "The no. of scenario scripts (use cases)"
+  },
+  {
+    "id": "ase_32",
+    "questionText": "(\u200bT\u200b/F) A danger of under estimating a project is that the project teams will likely have difficulty making shortened deadline`s.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_33",
+    "questionText": "(\u200bT\u200b/F) Process-based estimation is determined by approximating the time needed for various activities of the process model in use, tied to historical data almost the organization productivity for each activity and then \u2026\u2026\u2026\u2026.. up to product a monthly total for the project.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_34",
+    "questionText": "Bottom-up estimating based on a work breakdown structure",
+    "options": [
+      "Is a flawed technique that requires \u201cexpert\u201d judgment",
+      "Is a time consuming process",
+      "Can produce accurate results if process activities are well understood",
+      "Only b and c",
+      "None of the above"
+    ],
+    "correctAnswer": "Is a flawed technique that requires \u201cexpert\u201d judgment"
+  },
+  {
+    "id": "ase_35",
+    "questionText": "In almost all estimating technique, but particularly algorithmic approaches estimate accuracy is affected by",
+    "options": [
+      "The ability to translate the size estimate into person months and costs",
+      "The organization past history of metrics collection (verify this)",
+      "Only a and c",
+      "The estimators ability to property determine the size of products",
+      "All of the above"
+    ],
+    "correctAnswer": "The estimators ability to property determine the size of products"
+  },
+  {
+    "id": "ase_36",
+    "questionText": "The removed efficiency is",
+    "options": [
+      "DRE = E/(E+D) Where E is the no. of errors found after delivery of the",
+      "\u200b DRE = E/(E+D) Where E is the no. of errors found before delivery of the"
+    ],
+    "correctAnswer": "DRE = E/(E+D) Where E is the no. of errors found after delivery of the"
+  },
+  {
+    "id": "ase_37",
+    "questionText": "One view of requirements that considers data and the process that transform the data as connected entities is called",
+    "options": [
+      "ERD",
+      "Structured analysis",
+      "Object oriented analysis <verify>",
+      "Top-down analysis"
+    ],
+    "correctAnswer": "Object oriented analysis <verify>"
+  },
+  {
+    "id": "ase_38",
+    "questionText": "An ------------ is a metric or combination of metric that provide insight in to the software processes, a software project or the product itself",
+    "options": [
+      "Measure\u200b b) Indicator",
+      "Metric d) none of the above"
+    ],
+    "correctAnswer": "Measure\u200b b) Indicator"
+  },
+  {
+    "id": "ase_39",
+    "questionText": "Which is not a process model umbrella activity?",
+    "options": [
+      "Software project management",
+      "Software quality assurance",
+      "All of the above  are umbrella activity",
+      "Reusability management",
+      "Monitoring and control"
+    ],
+    "correctAnswer": "Software project management"
+  },
+  {
+    "id": "ase_40",
+    "questionText": "(T/\u200bF\u200b) The optimal development time (in terms of costs) for project is not \u201cthe earliest possible time\u201d.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_41",
+    "questionText": "Earned value analysis computes budgeted cost of work scheduled (BCWS). This value represents",
+    "options": [
+      "None of the above",
+      "The total amount of work the entire project",
+      "The total amount of work planned for a single task",
+      "The total amount of work accomplished for a task at a particular point in"
+    ],
+    "correctAnswer": "The total amount of work the entire project"
+  },
+  {
+    "id": "ase_42",
+    "questionText": "Project scheduling takes place -------- project estimates.",
+    "options": [
+      "That the classes can have operations and data objects cannot",
+      "\u200bThat the data objects can have operations and the classes cannot",
+      "Before \u200bb) after \u200bc) during",
+      "No way"
+    ],
+    "correctAnswer": "Before \u200bb) after \u200bc) during"
+  },
+  {
+    "id": "ase_44",
+    "questionText": "PERT is a technique for deterring",
+    "options": [
+      "The costs associated with a risk",
+      "The critical path for a project",
+      "The cost associated with a software engineering task"
+    ],
+    "correctAnswer": "The critical path for a project"
+  },
+  {
+    "id": "ase_45",
+    "questionText": "Earned value analysis",
+    "options": [
+      "Both a and c",
+      "Both a and b",
+      "Uses known from previous projects",
+      "Computes projects progress \u200b<verify>",
+      "Is only a single value"
+    ],
+    "correctAnswer": "Computes projects progress \u200b<verify>"
+  },
+  {
+    "id": "ase_46",
+    "questionText": "(T/\u200bF\u200b) A critical path is a list of tasks that can be started simultaneously in a project.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_47",
+    "questionText": "An important factor in estimation for OO projects is",
+    "options": [
+      "Determine the number of key classes",
+      "Categorize the type users",
+      "All of the above",
+      "Develop estimates the number of users"
+    ],
+    "correctAnswer": "Determine the number of key classes"
+  },
+  {
+    "id": "ase_48",
+    "questionText": "(\u200bT\u200b/F) The \u201cmake or buy decision\u201d is supported by and computed by determining cost.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_49",
+    "questionText": "Which is not a risk due to \u201cbusiness impact\u201d?",
+    "options": [
+      "They are all risks due to \u201cbusiness impact\u201d",
+      "The affect the product has on company revenue",
+      "Are CASE tools used for analysis, design and testing",
+      "Costs associated with late delivery"
+    ],
+    "correctAnswer": "The affect the product has on company revenue"
+  },
+  {
+    "id": "ase_50",
+    "questionText": "WBS means",
+    "options": [
+      "Work breakdown structure",
+      "Work breakdown schedule"
+    ],
+    "correctAnswer": "Work breakdown schedule"
+  },
+  {
+    "id": "ase_51",
+    "questionText": "(\u200bT\u200b/F) The \u201crisk table\u201d is sorted by risk probability and risk occurrence impact.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_52",
+    "questionText": "(T/\u200bF\u200b) Corrective maintenance is aimed at adding missing functionality.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_53",
+    "questionText": "Fixing potential Y2K problems. What type of maintenance is this?",
+    "options": [
+      "\u200bPreventive\u200b b) Corrective c) Selective d) Adaptive e) Perfective"
+    ],
+    "correctAnswer": "\u200bPreventive\u200b b) Corrective c) Selective d) Adaptive e) Perfective"
+  },
+  {
+    "id": "ase_54",
+    "questionText": "A fault  was found in our software that causes inaccurate results. It must be fixed. What type of maintenance is this?",
+    "options": [
+      "Preventive b) \u200bCorrective\u200b c) Selective d) Adaptive e) Perfective"
+    ],
+    "correctAnswer": "Preventive b) \u200bCorrective\u200b c) Selective d) Adaptive e) Perfective"
+  },
+  {
+    "id": "ase_55",
+    "questionText": "We are adding the ability to sort on any field in the employee record to our software. What type of maintenance is this? a.a) Preventive b) Corrective c) Selective d) Adaptive e) \u200bPerfective",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_56",
+    "questionText": "A new bar code reader has been manufactured for our system and we must change our software to use it. What type of maintenance is this? a.a) Preventive b) Corrective c) Selective d) \u200bAdaptive \u200be) Perfective",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_57",
+    "questionText": "(\u200bT\u200b/F) Developing new software cost more than maintain old software.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_58",
+    "questionText": "(T/\u200bF\u200b) If we wrote perfect programs completely free of faults, we would never need software maintenance.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_59",
+    "questionText": "(\u200bT\u200b/F) The Y2K issue resulted from COBOL programs that used 2 digit year date fields.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_60",
+    "questionText": "Courts have consistently ruled that reverse engineering of copyrighted software is",
+    "options": [
+      "Legal if the reverse engineering does not use any of the code",
+      "Legal no matter how much original code is used"
+    ],
+    "correctAnswer": "Legal if the reverse engineering does not use any of the code"
+  },
+  {
+    "id": "ase_61",
+    "questionText": "One of the issues with disassembly of binary code file is",
+    "options": [
+      "There\u2019s no symbolic information about variables",
+      "It\u2019s impossible to tell the difference between one subprogram and another",
+      "There\u2019s too much symbolic information about variables",
+      "Only b and c",
+      "All of the above"
+    ],
+    "correctAnswer": "There\u2019s too much symbolic information about variables"
+  },
+  {
+    "id": "ase_62",
+    "questionText": "(T/\u200bF\u200b) Refactoring is a type of reverse engineering that relies on disassembly of binary files.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_63",
+    "questionText": "(\u200bT\u200b/F) Refactoring should done on code that \u201csmells\u201d.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_64",
+    "questionText": "(T/F)\u200b A \u201cmisuse case\u201d describes how an authorized user of a system \u2026\u2026\u2026 the system.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "ase_65",
+    "questionText": "(\u200bT\u200b/F) A good quality for a metric to have is to be programming language independent.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_66",
+    "questionText": "(\u200bT\u200b/F) A metric\u2019s attributes should be programming language independent.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_67",
+    "questionText": "68) The critical path for this project is",
+    "options": [
+      "None of the above",
+      "T1 -> T2 -> T3 -> T4",
+      "T1 -> T2 -> T3",
+      "T1 -> T3 -> T4"
+    ],
+    "correctAnswer": "T1 -> T2 -> T3"
+  },
+  {
+    "id": "ase_69",
+    "questionText": "(\u200bT\u200b/F) If we remove the dependency for T3 on T2 and the let T3 start \u2026\u2026\u2026\u2026\u2026 take 12 days assuming two people per task.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_70",
+    "questionText": "UML use case diagrams are useful in representing which analysis model elements?",
+    "options": [
+      "Scenario-based elements",
+      "Algorithmic elements",
+      "Flow-based elements",
+      "Class-based elements"
+    ],
+    "correctAnswer": "Algorithmic elements"
+  },
+  {
+    "id": "ase_71",
+    "questionText": "Cohesion is a qualitative indication of the degree to which a module",
+    "options": [
+      "Both a and d",
+      "Focuses on just one thing",
+      "Can be written more compactly",
+      "Is connected to other modules and the outside world.",
+      "Is able to complete its function in a timely manner"
+    ],
+    "correctAnswer": "Can be written more compactly"
+  },
+  {
+    "id": "ase_72",
+    "questionText": "coupling is a qualitative indication of the degree to which a module",
+    "options": [
+      "All of the above",
+      "Focuses on just one thing",
+      "Can be written more compactly.",
+      "Is able to complete its function in a timely manner"
+    ],
+    "correctAnswer": "Can be written more compactly."
+  },
+  {
+    "id": "ase_73",
+    "questionText": "\u200b(T\u200b/F) Horizontal partitioning of a software architecture defines separate branch \u2026\u2026\u2026 module hierarchy for each major function of a program.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_74",
+    "questionText": "The most common layered architecture is called a.a) The boundary-controller-entity architecture b.b) The client-server architecture c.c) The 3-tier architecture d.d) Start network architecture",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_75",
+    "questionText": "An architectural style encompasses which of the following elements? a.a) Constraints b.b) Set of components c.c) Semantic models d.d) All of the above",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_76",
+    "questionText": "Data that outlasts the current execution of a program is called",
+    "options": [
+      "Persistent data",
+      "Permanent data",
+      "Processed data",
+      "Procedural data"
+    ],
+    "correctAnswer": "Permanent data"
+  },
+  {
+    "id": "ase_77",
+    "questionText": "(T/\u200bF\u200b) before an architectural pattern (client-server, peer-to-peer, etc) can be chosen for use in a specific system it must have a code implementation  facilitate its reuse.",
+    "options": [
+      "Option A",
+      "Option B"
+    ],
+    "correctAnswer": "Option A"
+  },
+  {
+    "id": "ase_78",
+    "questionText": "A threat that allows an attacker to insert false information into a system",
+    "options": [
+      "Interruption \u200bd) fabrication",
+      "Interception c) modification"
+    ],
+    "correctAnswer": "Interception c) modification"
+  },
+  {
+    "id": "ase_79",
+    "questionText": "Which of these is not an element of a requirements model?",
+    "options": [
+      "Data elements",
+      "Scenario-based elements",
+      "Behavioral elements",
+      "Class-based elements"
+    ],
+    "correctAnswer": "Behavioral elements"
+  },
+  {
+    "id": "ase_80",
+    "questionText": "Among the typical means used to gather requirements are",
+    "options": [
+      "Interviewing users",
+      "Creating prototypes",
+      "Questionnaires given to users",
+      "Analyzing forms used by the organization",
+      "All of the above"
+    ],
+    "correctAnswer": "Interviewing users"
+  },
+  {
+    "id": "ase_81",
+    "questionText": "Which of the following is not a part of a CRC?",
+    "options": [
+      "Class responsibility",
+      "Class name",
+      "Class collaboration",
+      "Class data flow"
+    ],
+    "correctAnswer": "Class data flow"
+  },
+  {
+    "id": "ase_82",
+    "questionText": "The concept of data abstraction is similar to the creation of",
+    "options": [
+      "Use cases",
+      "None of the above",
+      "Class diagrams",
+      "Data objects"
+    ],
+    "correctAnswer": "Use cases"
+  },
+  {
+    "id": "ase_83",
+    "questionText": "A(n) ------------- is the overall structure of a software system.",
+    "options": [
+      "Process",
+      "Relation",
+      "\u200bArchitecture",
+      "Class diagram"
+    ],
+    "correctAnswer": "Class diagram"
+  },
+  {
+    "id": "ase_84",
+    "questionText": "Which is not an architectural style?",
+    "options": [
+      "they can be passed around to others",
+      "call and return",
+      "most expensive",
+      "data centered",
+      "Data centered",
+      "Batch sequential",
+      "None of the above",
+      "None",
+      "$242,000",
+      "\u200bperfective",
+      "$392,700",
+      "the cards can be ordered to represent priorities",
+      "preventive",
+      "44",
+      "\u200bThey are all part of \u201cagility\u201d",
+      "3.75",
+      "smelliest",
+      "$277,200",
+      "they can be thrown away when no longer needed",
+      "communicating processes",
+      "corrective",
+      "Drawing the customer onto the team",
+      "Effective communication among all stakeholders",
+      "shortest",
+      "cheapest",
+      "none of the above",
+      "Layered",
+      "Throw and catch",
+      "$149,600",
+      "37.5",
+      "Organizing a team so that it is in control of the work performed"
+    ],
+    "correctAnswer": "Batch sequential"
+  }
+]

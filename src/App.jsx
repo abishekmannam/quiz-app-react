@@ -1,86 +1,105 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import algoData from './data/algo.json'
 import aseData from './data/ase.json'
 import aplData from './data/apl.json'
 import './index.css'
 
 const QUIZ_BANKS = {
-  APL: { name: 'APL', data: aplData },
-  ASE: { name: 'ASE', data: aseData },
-  AAlgorithms: { name: 'Algorithms', data: algoData }
-};
-
-const LENGTHS = {
-  '10 Qs': 10,
-  '20 Qs': 20,
-  '30 Qs': 30,
-  '40 Qs': 40,
-  '50 Qs': 50,
-  'All Qs': 'ALL'
+  APL: { id: 'APL', code: 'APL 524', title: 'Advanced Topics in Programming Languages', desc: 'BNF · Binding · Scoping', theme: 'apl', icon: '💻', data: aplData },
+  ASE: { id: 'ASE', code: 'ASE 543', title: 'Advanced Software Engineering', desc: 'Patterns · Architecture · Testing', theme: 'ase', icon: '⚙️', data: aseData },
+  ALGO: { id: 'ALGO', code: 'CS 528', title: 'Advanced Algorithms', desc: 'Graphs · DP · Complexity', theme: 'algo', icon: '📈', data: algoData }
 };
 
 // Fisher-Yates shuffle
 function shuffle(array) {
   let currentIndex = array.length, randomIndex;
+  const arr = [...array];
   while (currentIndex !== 0) {
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex--;
-    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+    [arr[currentIndex], arr[randomIndex]] = [arr[randomIndex], arr[currentIndex]];
   }
-  return array;
+  return arr;
 }
 
-function Home({ startQuiz }) {
-  const [selectedQuiz, setSelectedQuiz] = useState(null)
-  const [selectedLength, setSelectedLength] = useState(null)
+function SubjectSelection({ onSelect }) {
+  return (
+    <>
+      <header className="site-header">
+        <span className="eyebrow">Exam Prep</span>
+        <h1>Quiz Station</h1>
+        <p>// select subject → set range → ace the exam</p>
+      </header>
+
+      <div className="subject-grid animate-in">
+        {Object.values(QUIZ_BANKS).map(subj => (
+          <div 
+            key={subj.id} 
+            className={`subject-card ${subj.theme}`} 
+            onClick={() => onSelect(subj)}
+          >
+            <div style={{fontSize: '2rem', marginBottom: '12px'}}>{subj.icon}</div>
+            <div className="subj-code">{subj.code}</div>
+            <div className="subj-title">{subj.title}</div>
+            <div className="subj-desc" style={{color: 'var(--muted)', fontSize: '13px', lineHeight: '1.4'}}>{subj.desc}</div>
+            <div className="subj-count">
+              <span>{subj.data.length} Qs</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
+  )
+}
+
+function RangeSetup({ subject, onBack, onStart }) {
+  const maxQs = subject.data.length;
+  const [fromQ, setFromQ] = useState(1);
+  const [toQ, setToQ] = useState(Math.min(maxQs, 50));
+
+  const handleStart = () => {
+    let start = Math.max(1, parseInt(fromQ) || 1);
+    let end = Math.min(maxQs, Math.max(start, parseInt(toQ) || maxQs));
+    onStart(subject.id, start, end);
+  }
 
   return (
-    <div className="container">
-      <h1>Quiz Master</h1>
-      <p style={{textAlign: 'center'}}>Select a question bank and the desired length of your quiz.</p>
+    <div className="animate-in">
+      <button className="back-btn" onClick={onBack}>← Back to Subjects</button>
       
-      <div className="glass-card animate-slide-up">
-        <h2>1. Select Question Bank</h2>
-        <div className="grid grid-cols-3">
-          {Object.keys(QUIZ_BANKS).map(key => (
-            <button 
-              key={key}
-              className={`btn ${selectedQuiz === key ? 'selected' : ''}`}
-              onClick={() => setSelectedQuiz(key)}
-            >
-              <div style={{fontWeight: 600}}>{QUIZ_BANKS[key].name}</div>
-              <div style={{fontSize: '0.8rem', opacity: 0.7}}>
-                {QUIZ_BANKS[key].data.length} Qs
-              </div>
-            </button>
-          ))}
-        </div>
-      </div>
+      <div className="setup-card">
+        <h2>Configure Quiz</h2>
+        <p className="setup-sub">// choose your question range for {subject.id}</p>
 
-      <div className="glass-card animate-slide-up" style={{animationDelay: '0.1s'}}>
-        <h2>2. Select Length</h2>
-        <div className="grid grid-cols-3">
-          {Object.keys(LENGTHS).map(len => (
-            <button 
-              key={len}
-              className={`btn ${selectedLength === len ? 'selected' : ''}`}
-              onClick={() => setSelectedLength(len)}
-              style={{justifyContent: 'center'}}
-            >
-              {len}
-            </button>
-          ))}
+        <div className="range-row">
+          <div className="field">
+            <label>From Q#</label>
+            <input 
+              type="number" 
+              value={fromQ} 
+              min="1" 
+              max={maxQs} 
+              onChange={e => setFromQ(e.target.value)} 
+            />
+          </div>
+          <div className="field">
+            <label>To Q#</label>
+            <input 
+              type="number" 
+              value={toQ} 
+              min="1" 
+              max={maxQs}
+              onChange={e => setToQ(e.target.value)} 
+            />
+          </div>
         </div>
-      </div>
 
-      <button 
-        className="btn btn-primary animate-slide-up" 
-        style={{animationDelay: '0.2s'}}
-        disabled={!selectedQuiz || !selectedLength}
-        onClick={() => startQuiz(selectedQuiz, selectedLength)}
-      >
-        Start Quiz
-      </button>
+        <p className="range-info">Bank: <span>{maxQs}</span> questions available</p>
+
+        <button className="btn-start" onClick={handleStart}>
+          ▶ Start Quiz
+        </button>
+      </div>
     </div>
   )
 }
@@ -117,29 +136,19 @@ function QuizRunner({ questions, finishQuiz }) {
     }
   }
 
-  const progress = ((currentIndex) / questions.length) * 100;
-
   return (
-    <div className="container">
-      <div className="progress-container">
-        <div className="progress-bar" style={{ width: `${progress}%` }}></div>
-      </div>
-
-      <div className="glass-card animate-slide-up" key={currentIndex}>
-        <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '1rem'}}>
-          <div style={{color: 'var(--text-secondary)'}}>
-            Question {currentIndex + 1} / {questions.length}
-          </div>
-          <div style={{fontWeight: 600, color: 'var(--primary-accent)'}}>
-            Score: {score}
-          </div>
+    <div className="animate-in" key={currentIndex}>
+      <div className="q-box">
+        <div className="q-meta">
+          <span>Question {currentIndex + 1} of {questions.length}</span>
+          <span style={{color: 'var(--ok)'}}>Score: {score}</span>
         </div>
 
-        <h2 style={{minHeight: '4rem'}}>{currentQ.questionText}</h2>
+        <h2 className="q-text">{currentQ.questionText}</h2>
 
-        <div className="grid">
+        <div className="opts">
           {currentQ.options.map((opt, idx) => {
-            let className = "btn";
+            let className = "opt-btn";
             if (isAnswered) {
               if (opt === currentQ.correctAnswer) className += " correct";
               else if (opt === selectedOption) className += " wrong";
@@ -153,7 +162,9 @@ function QuizRunner({ questions, finishQuiz }) {
                 className={className}
                 onClick={() => handleOptionClick(opt)}
                 disabled={isAnswered}
+                style={isAnswered ? {} : (opt===selectedOption ? {borderColor:'var(--text)', background:'var(--surf)'} : {})}
               >
+                <span style={{fontFamily:'var(--mono)', opacity:0.5, marginRight:'12px'}}>{String.fromCharCode(65+idx)}.</span> 
                 {opt}
               </button>
             )
@@ -161,13 +172,11 @@ function QuizRunner({ questions, finishQuiz }) {
         </div>
 
         {isAnswered && (
-          <button 
-            className="btn btn-primary" 
-            style={{marginTop: '2rem'}}
-            onClick={handleNext}
-          >
-            {currentIndex + 1 < questions.length ? 'Next Question' : 'Finish Quiz'}
-          </button>
+          <div className="next-wrap">
+            <button className="btn-next" onClick={handleNext}>
+              {currentIndex + 1 < questions.length ? 'Next Question →' : 'Finish Quiz →'}
+            </button>
+          </div>
         )}
       </div>
     </div>
@@ -176,46 +185,41 @@ function QuizRunner({ questions, finishQuiz }) {
 
 function ResultSummary({ score, total, incorrectList, retakeQuiz, goHome }) {
   return (
-    <div className="container">
-      <div className="glass-card animate-slide-up" style={{textAlign: 'center'}}>
-        <h1 style={{fontSize: '3rem', marginBottom: '1rem'}}>Quiz Complete!</h1>
-        <h2>Your Score: <span style={{color: 'var(--primary-accent)'}}>{score}</span> / {total}</h2>
-        <div style={{fontSize: '1.2rem', color: 'var(--text-secondary)'}}>
-          ({Math.round((score/total)*100)}%)
+    <div className="animate-in">
+      <div className="result-card" style={{marginBottom: '24px'}}>
+        <h1 style={{fontSize: '2rem', marginBottom: '32px', fontFamily: 'var(--serif)'}}>Quiz Complete</h1>
+        
+        <div className="score-circle">
+          {Math.round((score/total)*100)}<span style={{fontSize:'1rem'}}>%</span>
+        </div>
+        
+        <p style={{color: 'var(--muted)'}}>You scored {score} out of {total}</p>
+
+        <div className="result-actions">
+          <button className="btn-outline" onClick={goHome}>Change Subject</button>
+          <button className="btn-outline" style={{background: '#fff', color: '#000'}} onClick={retakeQuiz}>Retake Quiz</button>
         </div>
       </div>
 
       {incorrectList.length > 0 && (
-        <div className="glass-card animate-slide-up" style={{animationDelay: '0.1s'}}>
-          <h2 style={{borderBottom: '1px solid var(--card-border)', paddingBottom: '1rem', marginBottom: '0'}}>
-            Questions to Review
-          </h2>
+        <div className="result-card" style={{textAlign: 'left'}}>
+          <h2 style={{fontSize: '1.2rem', marginBottom: '24px'}}>Questions to Review</h2>
           {incorrectList.map((q, i) => (
-            <div key={i} className="result-item">
-              <div className="result-q">{i+1}. {q.questionText}</div>
-              <div className="result-ans">
-                <div className="wrong">Your Answer: {q.userAns}</div>
-                <div className="correct">Correct Answer: {q.correctAnswer}</div>
-              </div>
+            <div key={i} className="review-item">
+              <div className="review-q">{i+1}. {q.questionText}</div>
+              <div className="review-a">Your Answer: {q.userAns}</div>
+              <div className="review-c">Correct Answer: {q.correctAnswer}</div>
             </div>
           ))}
         </div>
       )}
-
-      <div className="grid grid-cols-3 animate-slide-up" style={{animationDelay: '0.2s', gap: '1rem'}}>
-        <button className="btn" style={{justifyContent: 'center'}} onClick={goHome}>
-          Back to Home
-        </button>
-        <button className="btn btn-primary" style={{marginTop: 0, gridColumn: 'span 2'}} onClick={retakeQuiz}>
-          Retake Quiz
-        </button>
-      </div>
     </div>
   )
 }
 
 function App() {
-  const [screen, setScreen] = useState('home'); // home, quiz, results
+  const [screen, setScreen] = useState('subjects'); // subjects, setup, quiz, results
+  const [selectedSubject, setSelectedSubject] = useState(null);
   const [activeQuestions, setActiveQuestions] = useState([]);
   
   // Results state
@@ -223,17 +227,18 @@ function App() {
   const [incorrectList, setIncorrectList] = useState([]);
   const [lastSettings, setLastSettings] = useState(null);
 
-  const startQuiz = (bankKey, lengthKey) => {
-    const allQuestions = [...QUIZ_BANKS[bankKey].data];
-    const shuffled = shuffle(allQuestions);
-    const limit = LENGTHS[lengthKey];
-    const count = limit === 'ALL' ? shuffled.length : Math.min(limit, shuffled.length);
-    const selectedQ = shuffled.slice(0, count);
+  const startQuiz = (bankKey, fromQ, toQ) => {
+    const allQuestions = QUIZ_BANKS[bankKey].data;
     
-    // Add random IDs to handle duplicate parsed questions and force re-renders if needed
-    const qWithKeys = selectedQ.map(q => ({...q, _key: Math.random().toString()}));
+    // Select the specific range (fromQ and toQ are 1-indexed)
+    const rangeSubset = allQuestions.slice(fromQ - 1, toQ);
+    
+    // Shuffle the subset so they aren't always in the exact same order
+    const shuffled = shuffle(rangeSubset);
+    
+    const qWithKeys = shuffled.map(q => ({...q, _key: Math.random().toString()}));
 
-    setLastSettings({ bankKey, lengthKey });
+    setLastSettings({ bankKey, fromQ, toQ });
     setActiveQuestions(qWithKeys);
     setScreen('quiz');
   };
@@ -245,22 +250,36 @@ function App() {
   };
 
   const retakeQuiz = () => {
-    startQuiz(lastSettings.bankKey, lastSettings.lengthKey);
+    startQuiz(lastSettings.bankKey, lastSettings.fromQ, lastSettings.toQ);
   };
 
   return (
     <>
-      {screen === 'home' && <Home startQuiz={startQuiz} />}
-      {screen === 'quiz' && <QuizRunner questions={activeQuestions} finishQuiz={finishQuiz} />}
-      {screen === 'results' && 
+      {screen === 'subjects' && (
+        <SubjectSelection onSelect={(subj) => { setSelectedSubject(subj); setScreen('setup'); }} />
+      )}
+      
+      {screen === 'setup' && (
+         <RangeSetup 
+           subject={selectedSubject} 
+           onBack={() => setScreen('subjects')}
+           onStart={startQuiz}
+         />
+      )}
+
+      {screen === 'quiz' && (
+         <QuizRunner questions={activeQuestions} finishQuiz={finishQuiz} />
+      )}
+
+      {screen === 'results' && (
         <ResultSummary 
           score={finalScore} 
           total={activeQuestions.length} 
           incorrectList={incorrectList}
           retakeQuiz={retakeQuiz}
-          goHome={() => setScreen('home')}
+          goHome={() => setScreen('subjects')}
         />
-      }
+      )}
     </>
   )
 }

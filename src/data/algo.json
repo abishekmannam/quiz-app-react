@@ -1,77 +1,5 @@
 [
   {
-    "id": "algo_2",
-    "questionText": "If a and b are the vertices in a connected graph of order n , then the length of the longest simple path can be at most",
-    "options": [
-      "n-1"
-    ],
-    "correctAnswer": "n-1"
-  },
-  {
-    "id": "algo_3",
-    "questionText": "Which of the following algo has an implementation that most closely resembles that of Dijkstra algo ?",
-    "options": [
-      "Prims"
-    ],
-    "correctAnswer": "Prims"
-  },
-  {
-    "id": "algo_4",
-    "questionText": "When inserting the keys 10, 20, 25, 18, 15, 12 (in that order) into an initially empty binary search tree, how many branches will this tree have?",
-    "options": [
-      "2 (Verify)"
-    ],
-    "correctAnswer": "2 (Verify)"
-  },
-  {
-    "id": "algo_5",
-    "questionText": "The running time of the 0-1 Knapsack dynamic programming algorithm has growth that is",
-    "options": [
-      "Exponential"
-    ],
-    "correctAnswer": "Exponential"
-  },
-  {
-    "id": "algo_6",
-    "questionText": "Which of the following recurrences can not be solved by masters th ?",
-    "options": [
-      "T(n) = 2T(n/2)+ nlogn"
-    ],
-    "correctAnswer": "T(n) = 2T(n/2)+ nlogn"
-  },
-  {
-    "id": "algo_7",
-    "questionText": "All of the following algorithms make use of depth-first spanning trees, except for",
-    "options": [
-      "All of the above make use of depth-first spanning trees."
-    ],
-    "correctAnswer": "All of the above make use of depth-first spanning trees."
-  },
-  {
-    "id": "algo_8",
-    "questionText": "For Prim\u2019s algorithm the greedy choice is to choose",
-    "options": [
-      "the edge of least weight that is not in the tree under construction."
-    ],
-    "correctAnswer": "the edge of least weight that is not in the tree under construction."
-  },
-  {
-    "id": "algo_9",
-    "questionText": "How many swaps are required when sorting the array 6, 1, 3, 5, 2, 4 with insertion Sort?",
-    "options": [
-      "8"
-    ],
-    "correctAnswer": "8"
-  },
-  {
-    "id": "algo_10",
-    "questionText": "If a perfect binary tree has n = 2h - 1 nodes , then summing the individual heights of each tree node yields an expression that is :",
-    "options": [
-      "O(logn) (Verify)"
-    ],
-    "correctAnswer": "O(logn) (Verify)"
-  },
-  {
     "id": "algo_11",
     "questionText": "The following structures possess optimal substructures, except for",
     "options": [
@@ -83,78 +11,6 @@
     "correctAnswer": "a maximum-cost path from one graph vertex to another."
   },
   {
-    "id": "algo_12",
-    "questionText": "An algorithm with quadratic running time took 1 second to compute a problem instance of size 10000. Then, all other things being equal, how long would we expect the same algorithm to run for a problem instance of size 20000.",
-    "options": [
-      "4"
-    ],
-    "correctAnswer": "4"
-  },
-  {
-    "id": "algo_13",
-    "questionText": "The running time of Strassen\u2019s algorithm is",
-    "options": [
-      "T(n) = O(nlog7)"
-    ],
-    "correctAnswer": "T(n) = O(nlog7)"
-  },
-  {
-    "id": "algo_14",
-    "questionText": "Suppose n items are randomly inserted into a separate-chaining hash table of size n. Then, for increasingly large n, the length of the longest chain tends towards.",
-    "options": [
-      "O(1) (Verify)"
-    ],
-    "correctAnswer": "O(1) (Verify)"
-  },
-  {
-    "id": "algo_15",
-    "questionText": "(1000n2logn + n2log50n43 + 1000000n2.05)(789log4n + 45log2n80 + 10log3n50)",
-    "options": [
-      "O(n2.05log2n80)"
-    ],
-    "correctAnswer": "O(n2.05log2n80)"
-  },
-  {
-    "id": "algo_16",
-    "questionText": "When Quicksort calculates its pivot by using the median of the first, last and middle element, then it is guaranteed to run in time O(n logn) for each of the following arrays except for:",
-    "options": [
-      "an array in random order"
-    ],
-    "correctAnswer": "an array in random order"
-  },
-  {
-    "id": "algo_17",
-    "questionText": "In the Topological sorting algorithm, the first vertices added to the queue are those having",
-    "options": [
-      "greatest in-degree"
-    ],
-    "correctAnswer": "greatest in-degree"
-  },
-  {
-    "id": "algo_18",
-    "questionText": "In a simple graph G has order 23 then the largest size it can have is",
-    "options": [
-      "253 : [n(n-1)/2]"
-    ],
-    "correctAnswer": "253 : [n(n-1)/2]"
-  },
-  {
-    "id": "algo_19",
-    "questionText": "Which of the following expressions best describes the big-O relationship between f(n) =(logn)sqrt(log) g(n) = sqrt(n)",
-    "options": [
-      "f(n) = w(g(n))"
-    ],
-    "correctAnswer": "f(n) = w(g(n))"
-  },
-  {
-    "id": "algo_20",
-    "questionText": "Which of the following expressions best describes the big-O relationship between f(n) = n/(n+1) And g(n) =n 1/logn Ans: f(n) = theta g(n) Ans: O(root n)",
-    "options": [
-      "Solve"
-    ],
-    "correctAnswer": "Solve"
-  },
-  {
     "id": "algo_21",
     "questionText": "The summation expression Summation(i = 1 to n) [summation(j = i/2 to i) of j] O(n3)",
     "options": [
@@ -164,30 +20,6 @@
     "correctAnswer": "True"
   },
   {
-    "id": "algo_22",
-    "questionText": "Which of the following sorting tasks would not be appropriate for Counting Sort?",
-    "options": [
-      "sorting millions of products by their 15 digit serial number."
-    ],
-    "correctAnswer": "sorting millions of products by their 15 digit serial number."
-  },
-  {
-    "id": "algo_23",
-    "questionText": "Worst case running time T(n) for inserting n elements into an initially-empty binary heap is",
-    "options": [
-      "T(n) = O(n logn)"
-    ],
-    "correctAnswer": "T(n) = O(n logn)"
-  },
-  {
-    "id": "algo_24",
-    "questionText": "A simple graph G has vertex set equal to the set of bit strings of length 5. Moreover, any two vertices are adjacent if their corresponding bit strings differ by at most one bit. Then G must have exactly how many edges?",
-    "options": [
-      "Formula: n X 2n-1 now let n = 5, edges = 80."
-    ],
-    "correctAnswer": "Formula: n X 2n-1 now let n = 5, edges = 80."
-  },
-  {
     "id": "algo_25",
     "questionText": "Edit distance pair-formula j if i = 0 d(i, j) = i if j = 0 min(d(i\u22121,j)+1,d(i,j\u22121)+1,d(i\u22121,j\u22121)+(ui \u0338=vj))",
     "options": [
@@ -195,22 +27,6 @@
       "False"
     ],
     "correctAnswer": "True"
-  },
-  {
-    "id": "algo_26",
-    "questionText": "After executing the Floyd-Warshall algorithm for a graph having n vertices the optimal path from any vertex i to j may always be computed, even if one only has access to matrix(matrices)",
-    "options": [
-      "d(n-1)"
-    ],
-    "correctAnswer": "d(n-1)"
-  },
-  {
-    "id": "algo_27",
-    "questionText": "1/1k + 1/2k \u2026\u2026 + 1/nk = O(1)",
-    "options": [
-      "not enough information"
-    ],
-    "correctAnswer": "not enough information"
   },
   {
     "id": "algo_1",
@@ -650,10 +466,7 @@
       "b) k < l. <verify>",
       "c) k > l.",
       "d) none of the above",
-      "a) k = l.",
       "b) k < l.<verify>",
-      "c) k > l.",
-      "d) none of the above",
       "a)O(n^2)",
       "b)O(n^3)",
       "c)O(n^4)",

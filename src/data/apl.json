@@ -9,14 +9,6 @@
     "correctAnswer": "True"
   },
   {
-    "id": "apl_2",
-    "questionText": "Inthe C statement int x = 1; the value of x is bound at ..................cceeee eee ee",
-    "options": [
-      "Language design time"
-    ],
-    "correctAnswer": "Language design time"
-  },
-  {
     "id": "apl_3",
     "questionText": "Among the \u201cProgramming domains\u201d mentioned in class is",
     "options": [
@@ -540,14 +532,6 @@
       "True"
     ],
     "correctAnswer": "True"
-  },
-  {
-    "id": "apl_36",
-    "questionText": "a fo) A is a subprogram that has multiple entry points and controls them itself. A. Procedure B. Function Qa x g > S",
-    "options": [
-      ""
-    ],
-    "correctAnswer": ""
   },
   {
     "id": "apl_37",

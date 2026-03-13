@@ -176,30 +176,6 @@
     "correctAnswer": "Networking hardware"
   },
   {
-    "id": "ase_19",
-    "questionText": "Something of value which has to be protected.",
-    "options": [
-      "Asset\u200b b) attack c) threat d) vulnerability"
-    ],
-    "correctAnswer": "Asset\u200b b) attack c) threat d) vulnerability"
-  },
-  {
-    "id": "ase_20",
-    "questionText": "Circumstances that have potential to cause loss or harm.",
-    "options": [
-      "Asset b) attack \u200bc) threat\u200b d) vulnerability"
-    ],
-    "correctAnswer": "Asset b) attack \u200bc) threat\u200b d) vulnerability"
-  },
-  {
-    "id": "ase_21",
-    "questionText": "A weakness in a computer-based system that may be exploited to cause loss or harm.",
-    "options": [
-      "Asset b) attack c) threat \u200bd) vulnerability"
-    ],
-    "correctAnswer": "Asset b) attack c) threat \u200bd) vulnerability"
-  },
-  {
     "id": "ase_22",
     "questionText": "A threat that makes part of the system unavailable. a.a) Interception c) modification b.b) Interruption\u200b d) fabrication",
     "options": [
@@ -806,14 +782,6 @@
     "correctAnswer": "40-20-40 %"
   },
   {
-    "id": "ase_81",
-    "questionText": "According to Boehm\u2019s model of cost changes, the relative cost of correcting an error (relative to the requirements phases) during field operations is ----------- times more costly.",
-    "options": [
-      "10 b) 200 c) 400 \u200bd) 1000\u200b e) 2000"
-    ],
-    "correctAnswer": "10 b) 200 c) 400 \u200bd) 1000\u200b e) 2000"
-  },
-  {
     "id": "ase_82",
     "questionText": "(T/\u200bF\u200b) According to Lehman, s-type program are those that model real-world process and become part of the real-world by their use.",
     "options": [
@@ -821,14 +789,6 @@
       "Option B"
     ],
     "correctAnswer": "Option A"
-  },
-  {
-    "id": "ase_83",
-    "questionText": "Adding new pieces of hardware to an existing system usually necessitates what type \u2026.. maintenance?",
-    "options": [
-      "Perfective b) Corrective \u200bc) Adaptive"
-    ],
-    "correctAnswer": "Perfective b) Corrective \u200bc) Adaptive"
   },
   {
     "id": "ase_84",
@@ -1494,22 +1454,6 @@
       "Option B"
     ],
     "correctAnswer": "Option A"
-  },
-  {
-    "id": "ase_53",
-    "questionText": "Fixing potential Y2K problems. What type of maintenance is this?",
-    "options": [
-      "\u200bPreventive\u200b b) Corrective c) Selective d) Adaptive e) Perfective"
-    ],
-    "correctAnswer": "\u200bPreventive\u200b b) Corrective c) Selective d) Adaptive e) Perfective"
-  },
-  {
-    "id": "ase_54",
-    "questionText": "A fault  was found in our software that causes inaccurate results. It must be fixed. What type of maintenance is this?",
-    "options": [
-      "Preventive b) \u200bCorrective\u200b c) Selective d) Adaptive e) Perfective"
-    ],
-    "correctAnswer": "Preventive b) \u200bCorrective\u200b c) Selective d) Adaptive e) Perfective"
   },
   {
     "id": "ase_55",
